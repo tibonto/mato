@@ -1,0 +1,97 @@
+@prefix : <http://www.semanticweb.org/Machine_and_Tool_Ontology> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/Machine_and_Tool_Ontology> .
+
+<http://www.semanticweb.org/Machine_and_Tool_Ontology> rdf:type owl:Ontology ;
+                                                        owl:versionIRI <http://www.semanticweb.org/Machine_and_Tool_Ontology/0.0.1> ;
+                                                        rdfs:label "Machine and Tool Ontology"@en ;
+                                                        owl:versionInfo "0.0.1" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.owl-ontologies.com/mason.owl#contains
+<http://www.owl-ontologies.com/mason.owl#contains> rdf:type owl:ObjectProperty ;
+                                                   owl:inverseOf <http://www.owl-ontologies.com/mason.owl#isLocatedIn> .
+
+
+###  http://www.owl-ontologies.com/mason.owl#isLocatedIn
+<http://www.owl-ontologies.com/mason.owl#isLocatedIn> rdf:type owl:ObjectProperty ;
+                                                      rdfs:domain <http://www.owl-ontologies.com/mason.owl#Material_resource> ;
+                                                      rdfs:range <http://www.owl-ontologies.com/mason.owl#Geographic_resource> ;
+                                                      rdfs:label "is located in"^^xsd:string .
+
+
+###  http://www.owl-ontologies.com/mason.owl#isUsedBy
+<http://www.owl-ontologies.com/mason.owl#isUsedBy> rdf:type owl:ObjectProperty ;
+                                                   owl:inverseOf <http://www.owl-ontologies.com/mason.owl#usesTool> ;
+                                                   rdfs:domain <http://www.owl-ontologies.com/mason.owl#Tool> ;
+                                                   rdfs:range <http://www.owl-ontologies.com/mason.owl#Machine-tool> ;
+                                                   rdfs:comment "Machines qui utilisent cet outil"@fr ,
+                                                                "Machinetools which use a given tool"@en ;
+                                                   rdfs:label "is used by"^^xsd:string .
+
+
+###  http://www.owl-ontologies.com/mason.owl#usesTool
+<http://www.owl-ontologies.com/mason.owl#usesTool> rdf:type owl:ObjectProperty ;
+                                                   rdfs:domain <http://www.owl-ontologies.com/mason.owl#Machine-tool> ;
+                                                   rdfs:range <http://www.owl-ontologies.com/mason.owl#Tool> ;
+                                                   rdfs:comment "Lie une machine-outil aux outils qu'elle utilise."@fr ;
+                                                   rdfs:label "uses tool"^^xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.owl-ontologies.com/mason.owl#Geographic_resource
+<http://www.owl-ontologies.com/mason.owl#Geographic_resource> rdf:type owl:Class .
+
+
+###  http://www.owl-ontologies.com/mason.owl#Machine-tool
+<http://www.owl-ontologies.com/mason.owl#Machine-tool> rdf:type owl:Class .
+
+
+###  http://www.owl-ontologies.com/mason.owl#Machine_resource
+<http://www.owl-ontologies.com/mason.owl#Machine_resource> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Material_resource> ;
+                                                           rdfs:label "Machine resource"@en ,
+                                                                      "Ressource machine"@fr .
+
+
+###  http://www.owl-ontologies.com/mason.owl#Material_resource
+<http://www.owl-ontologies.com/mason.owl#Material_resource> rdf:type owl:Class .
+
+
+###  http://www.owl-ontologies.com/mason.owl#Tool
+<http://www.owl-ontologies.com/mason.owl#Tool> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Material_resource> ;
+                                               rdfs:label "Tool"^^xsd:string .
+
+
+###  http://www.semanticweb.org/Machine_and_Tool_Ontology/Indexeble_Insert
+<http://www.semanticweb.org/Machine_and_Tool_Ontology/Indexeble_Insert> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Tool> .
+
+
+###  http://www.semanticweb.org/Machine_and_Tool_Ontology/Processing_Head
+<http://www.semanticweb.org/Machine_and_Tool_Ontology/Processing_Head> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Tool> .
+
+
+###  http://www.semanticweb.org/Machine_and_Tool_Ontology/Rolling_Ball
+<http://www.semanticweb.org/Machine_and_Tool_Ontology/Rolling_Ball> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Tool> .
+
+
+###  http://www.semanticweb.org/Machine_and_Tool_Ontology/Turning_Machine
+<http://www.semanticweb.org/Machine_and_Tool_Ontology/Turning_Machine> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Machine-tool> .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
