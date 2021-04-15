@@ -1,0 +1,16 @@
+PREFIX bfo: <http://purl.obolibrary.org/obo/bfo/2020/bfo.owl#>
+PREFIX iao: <http://purl.obolibrary.org/obo/iao/2020-06-10/iao.owl#>
+PREFIX ro: <http://purl.obolibrary.org/obo/ro.owl#>
+PREFIX ico: <http://purl.obolibrary.org/obo/ico.owl#>
+PREFIX obi: <http://purl.obolibrary.org/obo/obi.owl#>
+PREFIX ncbitaxon: <http://purl.obolibrary.org/obo/ncbitaxon.owl#>
+PREFIX gaz: <http://purl.obolibrary.org/obo/gaz.owl#>
+PREFIX cro: <http://purl.obolibrary.org/obo/cro.owl#>
+#PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+SELECT DISTINCT ?term
+WHERE{
+    ?term ?p ?v .
+    FILTER (STRSTARTS(str(?term), "http://purl.obolibrary.org/obo/"))
+}
+ORDER BY ?term
