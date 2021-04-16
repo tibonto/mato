@@ -31,8 +31,16 @@ jobs:
           wget --quiet https://github.com/ontodev/robot/releases/download/v1.8.1/robot.jar
           curl https://raw.githubusercontent.com/ontodev/robot/master/bin/robot > robot 
           chmod +x robot
-          ls -l .
           sudo mv ./robot /usr/local/bin
           sudo mv ./robot.jar /usr/local/bin
           echo "ROBOT version:"
           robot -V
+      - name: run ROBOT report
+        run: |
+          robot report --input mato.ttl --output report.txt
+      - name: report artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: robot_report
+          path: report.txt
+
