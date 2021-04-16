@@ -6,9 +6,8 @@ name: Ontology test with pytest
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  build:
+  pytest_tests:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.7
@@ -23,3 +22,28 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+  robot_report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install ROBOT
+        run: |
+          wget --quiet https://github.com/ontodev/robot/releases/download/v1.8.1/robot.jar
+          curl https://raw.githubusercontent.com/ontodev/robot/master/bin/robot > robot 
+          chmod +x robot
+          sudo mv ./robot /usr/local/bin
+          sudo mv ./robot.jar /usr/local/bin
+          echo "ROBOT version:"
+          robot -V
+      - name: test for ERRORs with ROBOT report
+        run: |
+          robot report --input mato.ttl
+      - name: produce report
+        run: |
+          robot report --input mato.ttl --output report.txt
+      - name: report artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: robot_report
+          path: report.txt
+
