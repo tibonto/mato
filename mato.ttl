@@ -4,12 +4,10 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix mato: <https://github.com/tibonto/mato#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix mason: <http://www.owl-ontologies.com/mason.owl#> .
 @base <https://github.com/tibonto/mato> .
-
 
 <https://github.com/tibonto/mato> rdf:type owl:Ontology ;
                                    dc:contributor "André Castro" ;
@@ -19,3 +17,111 @@
                                    dcterms:license <https://www.gnu.org/licenses/gpl-3.0> ;
                                    owl:versionInfo "0.0.1" .
 
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/contributor
+dc:contributor rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+dc:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+dc:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+dc:title rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+dcterms:license rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.owl-ontologies.com/mason.owl#contains
+<http://www.owl-ontologies.com/mason.owl#contains> rdf:type owl:ObjectProperty ;
+                                                   owl:inverseOf <http://www.owl-ontologies.com/mason.owl#isLocatedIn> .
+
+
+###  http://www.owl-ontologies.com/mason.owl#isLocatedIn
+<http://www.owl-ontologies.com/mason.owl#isLocatedIn> rdf:type owl:ObjectProperty ;
+                                                      rdfs:domain <http://www.owl-ontologies.com/mason.owl#Material_resource> ;
+                                                      rdfs:range <http://www.owl-ontologies.com/mason.owl#Geographic_resource> ;
+                                                      rdfs:label "is located in"^^xsd:string .
+
+
+###  http://www.owl-ontologies.com/mason.owl#isUsedBy
+<http://www.owl-ontologies.com/mason.owl#isUsedBy> rdf:type owl:ObjectProperty ;
+                                                   owl:inverseOf <http://www.owl-ontologies.com/mason.owl#usesTool> ;
+                                                   rdfs:domain <http://www.owl-ontologies.com/mason.owl#Tool> ;
+                                                   rdfs:range <http://www.owl-ontologies.com/mason.owl#Machine-tool> ;
+                                                   rdfs:comment "Machines qui utilisent cet outil"@fr ,
+                                                                "Machinetools which use a given tool"@en ;
+                                                   rdfs:label "is used by"^^xsd:string .
+
+
+###  http://www.owl-ontologies.com/mason.owl#usesTool
+<http://www.owl-ontologies.com/mason.owl#usesTool> rdf:type owl:ObjectProperty ;
+                                                   rdfs:domain <http://www.owl-ontologies.com/mason.owl#Machine-tool> ;
+                                                   rdfs:range <http://www.owl-ontologies.com/mason.owl#Tool> ;
+                                                   rdfs:comment "Lie une machine-outil aux outils qu'elle utilise."@fr ;
+                                                   rdfs:label "uses tool"^^xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.owl-ontologies.com/mason.owl#Geographic_resource
+<http://www.owl-ontologies.com/mason.owl#Geographic_resource> rdf:type owl:Class .
+
+
+###  http://www.owl-ontologies.com/mason.owl#Machine-tool
+<http://www.owl-ontologies.com/mason.owl#Machine-tool> rdf:type owl:Class .
+
+
+###  http://www.owl-ontologies.com/mason.owl#Machine_resource
+<http://www.owl-ontologies.com/mason.owl#Machine_resource> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Material_resource> ;
+                                                           rdfs:label "Machine resource"@en ,
+                                                                      "Ressource machine"@fr .
+
+
+###  http://www.owl-ontologies.com/mason.owl#Material_resource
+<http://www.owl-ontologies.com/mason.owl#Material_resource> rdf:type owl:Class .
+
+
+###  http://www.owl-ontologies.com/mason.owl#Tool
+<http://www.owl-ontologies.com/mason.owl#Tool> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Material_resource> ;
+                                               rdfs:label "Tool"^^xsd:string .
+
+
+###  https://github.com/tibonto/mato/Indexeble_Insert
+<https://github.com/tibonto/mato/Indexeble_Insert> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Tool> .
+
+
+###  https://github.com/tibonto/mato/Processing_Head
+<https://github.com/tibonto/mato/Processing_Head> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Tool> .
+
+
+###  https://github.com/tibonto/mato/Rolling_Ball
+<https://github.com/tibonto/mato/Rolling_Ball> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Tool> .
+
+
+###  https://github.com/tibonto/mato/Turning_Machine
+<https://github.com/tibonto/mato/Turning_Machine> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Machine-tool> .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
