@@ -6,7 +6,7 @@ name: Ontology test with pytest
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  build:
+  pytest_tests:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
