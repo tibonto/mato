@@ -37,8 +37,8 @@ jobs:
           robot -V
       - name: test for ERRORs with ROBOT report
         run: |
-          produce report
-      - name: test for ERRORs with ROBOT report
+          robot report --input mato.ttl --output
+      - name: produce report
         run: |
           robot report --input mato.ttl --output report.txt
       - name: report artifact
