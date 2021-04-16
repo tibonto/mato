@@ -12,86 +12,221 @@
                                                         owl:versionInfo "0.0.1" .
 
 #################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#example
+<http://www.w3.org/2004/02/skos/core#example> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#note
+<http://www.w3.org/2004/02/skos/core#note> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/prov#category
+<http://www.w3.org/ns/prov#category> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/prov#component
+<http://www.w3.org/ns/prov#component> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/prov#definition
+<http://www.w3.org/ns/prov#definition> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/prov#dm
+<http://www.w3.org/ns/prov#dm> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/prov#editorialNote
+<http://www.w3.org/ns/prov#editorialNote> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/prov#inverse
+<http://www.w3.org/ns/prov#inverse> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/prov#n
+<http://www.w3.org/ns/prov#n> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/prov#sharesDefinitionWith
+<http://www.w3.org/ns/prov#sharesDefinitionWith> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
 #    Object Properties
 #################################################################
 
-###  http://www.owl-ontologies.com/mason.owl#contains
-<http://www.owl-ontologies.com/mason.owl#contains> rdf:type owl:ObjectProperty ;
-                                                   owl:inverseOf <http://www.owl-ontologies.com/mason.owl#isLocatedIn> .
-
-
 ###  http://www.owl-ontologies.com/mason.owl#isLocatedIn
 <http://www.owl-ontologies.com/mason.owl#isLocatedIn> rdf:type owl:ObjectProperty ;
-                                                      rdfs:domain <http://www.owl-ontologies.com/mason.owl#Material_resource> ;
-                                                      rdfs:range <http://www.owl-ontologies.com/mason.owl#Geographic_resource> ;
                                                       rdfs:label "is located in"^^xsd:string .
 
 
-###  http://www.owl-ontologies.com/mason.owl#isUsedBy
-<http://www.owl-ontologies.com/mason.owl#isUsedBy> rdf:type owl:ObjectProperty ;
-                                                   owl:inverseOf <http://www.owl-ontologies.com/mason.owl#usesTool> ;
-                                                   rdfs:domain <http://www.owl-ontologies.com/mason.owl#Tool> ;
-                                                   rdfs:range <http://www.owl-ontologies.com/mason.owl#Machine-tool> ;
-                                                   rdfs:comment "Machines qui utilisent cet outil"@fr ,
-                                                                "Machinetools which use a given tool"@en ;
-                                                   rdfs:label "is used by"^^xsd:string .
+###  http://www.w3.org/ns/prov#atLocation
+<http://www.w3.org/ns/prov#atLocation> rdf:type owl:ObjectProperty ;
+                                       rdfs:domain [ rdf:type owl:Class ;
+                                                     owl:unionOf ( <http://www.w3.org/ns/prov#Activity>
+                                                                   <http://www.w3.org/ns/prov#Agent>
+                                                                   <http://www.w3.org/ns/prov#Entity>
+                                                                   <http://www.w3.org/ns/prov#InstantaneousEvent>
+                                                                 )
+                                                   ] ;
+                                       rdfs:range <http://www.w3.org/ns/prov#Location> ;
+                                       rdfs:comment "The Location of any resource."@en ,
+                                                    "This property has multiple RDFS domains to suit multiple OWL Profiles. See <a href=\"#owl-profile\">PROV-O OWL Profile</a>." ;
+                                       rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
+                                       rdfs:label "atLocation" ;
+                                       <http://www.w3.org/ns/prov#category> "expanded" ;
+                                       <http://www.w3.org/ns/prov#editorialNote> "The naming of prov:atLocation parallels prov:atTime, and is not named prov:hadLocation to avoid conflicting with the convention that prov:had* properties are used on prov:Influence classes."@en ,
+                                                                                 "This property is not functional because the many values could be at a variety of granularies (In this building, in this room, in that chair)."@en ;
+                                       <http://www.w3.org/ns/prov#inverse> "locationOf" ;
+                                       <http://www.w3.org/ns/prov#sharesDefinitionWith> <http://www.w3.org/ns/prov#Location> .
 
 
-###  http://www.owl-ontologies.com/mason.owl#usesTool
-<http://www.owl-ontologies.com/mason.owl#usesTool> rdf:type owl:ObjectProperty ;
-                                                   rdfs:domain <http://www.owl-ontologies.com/mason.owl#Machine-tool> ;
-                                                   rdfs:range <http://www.owl-ontologies.com/mason.owl#Tool> ;
-                                                   rdfs:comment "Lie une machine-outil aux outils qu'elle utilise."@fr ;
-                                                   rdfs:label "uses tool"^^xsd:string .
+###  http://www.w3.org/ns/ssn/hasSubSystem
+<http://www.w3.org/ns/ssn/hasSubSystem> rdf:type owl:ObjectProperty ;
+                                        rdfs:comment "Relation between a System and its component parts."@en ;
+                                        rdfs:isDefinedBy <http://www.w3.org/ns/ssn/> ;
+                                        rdfs:label "has subsystem"@en ;
+                                        <http://www.w3.org/2004/02/skos/core#definition> "Relation between a System and its component parts."@en .
+
+
+###  http://www.w3.org/ns/ssn/implementedBy
+<http://www.w3.org/ns/ssn/implementedBy> rdf:type owl:ObjectProperty ;
+                                         owl:inverseOf <http://www.w3.org/ns/ssn/implements> .
+
+
+###  http://www.w3.org/ns/ssn/implements
+<http://www.w3.org/ns/ssn/implements> rdf:type owl:ObjectProperty ;
+                                      rdfs:comment "Relation between an entity that implements a Procedure in some executable way and the Procedure (an algorithm, procedure or method)."@en ;
+                                      rdfs:isDefinedBy <http://www.w3.org/ns/ssn/> ;
+                                      rdfs:label "implements"@en ;
+                                      <http://www.w3.org/2004/02/skos/core#definition> "Relation between an entity that implements a Procedure in some executable way and the Procedure (an algorithm, procedure or method)."@en ;
+                                      <http://www.w3.org/2004/02/skos/core#example> "For example, the relationship between a sensor and the scientific measuring Procedure via which it senses."@en .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.owl-ontologies.com/mason.owl#Geographic_resource
-<http://www.owl-ontologies.com/mason.owl#Geographic_resource> rdf:type owl:Class .
+###  http://infoneer.txstate.edu/ontology/MSDL_0000033
+<http://infoneer.txstate.edu/ontology/MSDL_0000033> rdf:type owl:Class ;
+                                                    rdfs:subClassOf :Production_equipment ;
+                                                    rdfs:label "production machine" .
 
 
-###  http://www.owl-ontologies.com/mason.owl#Machine-tool
-<http://www.owl-ontologies.com/mason.owl#Machine-tool> rdf:type owl:Class .
+###  http://infoneer.txstate.edu/ontology/MSDL_0000036
+<http://infoneer.txstate.edu/ontology/MSDL_0000036> rdf:type owl:Class ;
+                                                    rdfs:subClassOf :Production_equipment ;
+                                                    rdfs:label "production tool" .
 
 
-###  http://www.owl-ontologies.com/mason.owl#Machine_resource
-<http://www.owl-ontologies.com/mason.owl#Machine_resource> rdf:type owl:Class ;
-                                                           rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Material_resource> ;
-                                                           rdfs:label "Machine resource"@en ,
-                                                                      "Ressource machine"@fr .
+###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Equipment
+:Equipment rdf:type owl:Class ;
+           rdfs:subClassOf <http://www.w3.org/ns/ssn/System> .
 
 
-###  http://www.owl-ontologies.com/mason.owl#Material_resource
-<http://www.owl-ontologies.com/mason.owl#Material_resource> rdf:type owl:Class .
+###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Handling_and_transportation_equipment
+:Handling_and_transportation_equipment rdf:type owl:Class ;
+                                       rdfs:subClassOf :Equipment .
 
 
-###  http://www.owl-ontologies.com/mason.owl#Tool
-<http://www.owl-ontologies.com/mason.owl#Tool> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Material_resource> ;
-                                               rdfs:label "Tool"^^xsd:string .
+###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Inspection_equipment
+:Inspection_equipment rdf:type owl:Class ;
+                      rdfs:subClassOf :Equipment .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology/Indexeble_Insert
-<http://www.semanticweb.org/Machine_and_Tool_Ontology/Indexeble_Insert> rdf:type owl:Class ;
-                                                                        rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Tool> .
+###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Machine_tool
+:Machine_tool rdf:type owl:Class ;
+              rdfs:subClassOf <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology/Processing_Head
-<http://www.semanticweb.org/Machine_and_Tool_Ontology/Processing_Head> rdf:type owl:Class ;
-                                                                       rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Tool> .
+###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Production_equipment
+:Production_equipment rdf:type owl:Class ;
+                      rdfs:subClassOf :Equipment .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology/Rolling_Ball
-<http://www.semanticweb.org/Machine_and_Tool_Ontology/Rolling_Ball> rdf:type owl:Class ;
-                                                                    rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Tool> .
+###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Software_tool
+:Software_tool rdf:type owl:Class ;
+               rdfs:subClassOf <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology/Turning_Machine
-<http://www.semanticweb.org/Machine_and_Tool_Ontology/Turning_Machine> rdf:type owl:Class ;
-                                                                       rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Machine-tool> .
+###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Test_equipment
+:Test_equipment rdf:type owl:Class ;
+                rdfs:subClassOf :Equipment .
+
+
+###  http://www.w3.org/ns/prov#Activity
+<http://www.w3.org/ns/prov#Activity> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/prov#Agent
+<http://www.w3.org/ns/prov#Agent> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/prov#Entity
+<http://www.w3.org/ns/prov#Entity> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/prov#InstantaneousEvent
+<http://www.w3.org/ns/prov#InstantaneousEvent> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/prov#Location
+<http://www.w3.org/ns/prov#Location> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/prov#Person
+<http://www.w3.org/ns/prov#Person> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://www.w3.org/ns/prov#Agent> ;
+                                   rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
+                                   rdfs:label "Person" ;
+                                   <http://www.w3.org/ns/prov#category> "expanded" ;
+                                   <http://www.w3.org/ns/prov#component> "agents-responsibility" ;
+                                   <http://www.w3.org/ns/prov#definition> "Person agents are people."@en ;
+                                   <http://www.w3.org/ns/prov#dm> "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-agent"^^xsd:anyURI ;
+                                   <http://www.w3.org/ns/prov#n> "http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-types"^^xsd:anyURI .
+
+
+###  http://www.w3.org/ns/sosa/Procedure
+<http://www.w3.org/ns/sosa/Procedure> rdf:type owl:Class ;
+                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                        owl:onProperty <http://www.w3.org/ns/ssn/implementedBy> ;
+                                                        owl:allValuesFrom <http://www.w3.org/ns/ssn/System>
+                                                      ] ;
+                                      rdfs:comment "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation, create a Sample, or make a change to the state of the world (via an Actuator). A Procedure is re-usable, and might be involved in many Observations, Samplings, or Actuations. It explains the steps to be carried out to arrive at reproducible results."@en ;
+                                      rdfs:isDefinedBy <http://www.w3.org/ns/sosa/> ;
+                                      rdfs:label "Procedure"@en ;
+                                      <http://www.w3.org/2004/02/skos/core#definition> "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation, create a Sample, or make a change to the state of the world (via an Actuator). A Procedure is re-usable, and might be involved in many Observations, Samplings, or Actuations. It explains the steps to be carried out to arrive at reproducible results."@en ;
+                                      <http://www.w3.org/2004/02/skos/core#example> "The measured wind speed differs depending on the height of the sensor above the surface, e.g., due to friction. Consequently, procedures for measuring wind speed define a standard height for anemometers above ground, typically 10m for meteorological measures and 2m in Agrometeorology. This definition of height, sensor placement, and so forth are defined by the Procedure."@en ;
+                                      <http://www.w3.org/2004/02/skos/core#note> "Many observations may be created via the same Procedure, the same way as many tables are assembled using the same instructions (as information objects, not their concrete realization)."@en .
+
+
+###  http://www.w3.org/ns/ssn/System
+<http://www.w3.org/ns/ssn/System> rdf:type owl:Class ;
+                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                    owl:onProperty <http://www.w3.org/ns/ssn/hasSubSystem> ;
+                                                    owl:allValuesFrom <http://www.w3.org/ns/ssn/System>
+                                                  ] ,
+                                                  [ rdf:type owl:Restriction ;
+                                                    owl:onProperty <http://www.w3.org/ns/ssn/implements> ;
+                                                    owl:allValuesFrom <http://www.w3.org/ns/sosa/Procedure>
+                                                  ] ,
+                                                  [ rdf:type owl:Restriction ;
+                                                    owl:onProperty [ owl:inverseOf <http://www.w3.org/ns/ssn/hasSubSystem>
+                                                                   ] ;
+                                                    owl:allValuesFrom <http://www.w3.org/ns/ssn/System>
+                                                  ] ;
+                                  rdfs:comment "System is a unit of abstraction for pieces of infrastructure that implement Procedures. A System may have components, its subsystems, which are other systems."@en ;
+                                  rdfs:isDefinedBy <http://www.w3.org/ns/ssn/> ;
+                                  rdfs:label "System"@en ;
+                                  <http://www.w3.org/2004/02/skos/core#definition> "System is a unit of abstraction for pieces of infrastructure that implement Procedures. A System may have components, its subsystems, which are other systems."@en .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
