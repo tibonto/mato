@@ -1,0 +1,5457 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generiert durch Microsoft Visio 11.0, SVG Export, v1.0 MATO ontology.svg MSDL SSN PROV-O  -->
+
+<svg
+   xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1070.2483mm"
+   height="455.98187mm"
+   viewBox="0 0 3033.7738 1292.5521"
+   xml:space="preserve"
+   class="st27"
+   version="1.1"
+   id="svg2308"
+   sodipodi:docname="MATO ontology.svg"
+   style="font-size:12px;overflow:visible;color-interpolation-filters:sRGB;fill:none;fill-rule:evenodd;stroke-linecap:square;stroke-miterlimit:3"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+   id="metadata2312"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1916"
+   inkscape:window-height="987"
+   id="namedview2310"
+   showgrid="false"
+   fit-margin-top="5"
+   fit-margin-right="5"
+   fit-margin-bottom="5"
+   fit-margin-left="5"
+   units="mm"
+   inkscape:zoom="0.26177906"
+   inkscape:cx="1721.325"
+   inkscape:cy="786.70872"
+   inkscape:window-x="1680"
+   inkscape:window-y="72"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg2308" />
+	<v:documentProperties
+   v:langID="1031"
+   v:metric="true"
+   v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud
+   v:nameU="msvSubprocessMaster"
+   v:prompt=""
+   v:val="VT4(Box)" />
+			<v:ud
+   v:nameU="msvNoAutoConnect"
+   v:val="VT0(1):26" />
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style
+   type="text/css"
+   id="style1181">
+	<![CDATA[
+		.st1 {visibility:visible}
+		.st2 {fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5;stroke-width:0.25}
+		.st3 {fill:#e0e6cd;stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st4 {fill:#000000;font-family:Calibri;font-size:1.16666em}
+		.st5 {fill:#fae9dc;stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st6 {font-size:1em}
+		.st7 {marker-end:url(#mrkr5-20);stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st8 {fill:#404040;fill-opacity:1;stroke:#404040;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st9 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st10 {fill:#000000;font-family:Calibri;font-size:0.666664em}
+		.st11 {fill:#e1ebf3;stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st12 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st13 {marker-end:url(#mrkr5-20);marker-start:url(#mrkr4-86);stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st14 {fill:#ff0000;font-family:Calibri;font-size:0.666664em}
+		.st15 {fill:#000000;font-size:1em}
+		.st16 {fill:#e7e3ee;stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st17 {fill:#a6c3dd;stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st18 {marker-end:url(#mrkr5-20);marker-start:url(#mrkr4-167);stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st19 {stroke:#cdcdcd;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5;stroke-width:2.25}
+		.st20 {stroke:#c00000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st21 {fill:#b8c1e0;stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st22 {fill:#e0e6cd;stroke:#c00000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st23 {fill:#efe1f0;stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st24 {fill:#000000;font-family:Calibri;font-size:0.916672em}
+		.st25 {fill:#b1e4e7;stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st26 {fill:#b1e7c7;stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st27 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs
+   id="Patterns_And_Gradients">
+		<linearGradient
+   id="grad30-17"
+   v:fillPattern="30"
+   v:foreground="#f0f0f0"
+   v:background="#ffffff"
+   x1="0"
+   y1="1"
+   x2="0"
+   y2="0">
+			<stop
+   offset="0"
+   style="stop-color:#f0f0f0;stop-opacity:1"
+   id="stop1183" />
+			<stop
+   offset="1"
+   style="stop-color:#ffffff;stop-opacity:1"
+   id="stop1185" />
+		</linearGradient>
+		<linearGradient
+   id="grad30-247"
+   v:fillPattern="30"
+   v:foreground="#ff3c3c"
+   v:background="#ff0000"
+   x1="0"
+   y1="1"
+   x2="0"
+   y2="0">
+			<stop
+   offset="0"
+   style="stop-color:#ff3c3c;stop-opacity:1"
+   id="stop1188" />
+			<stop
+   offset="1"
+   style="stop-color:#ff0000;stop-opacity:1"
+   id="stop1190" />
+		</linearGradient>
+	</defs>
+	<defs
+   id="Markers">
+		<g
+   id="lend5">
+			<path
+   d="M 2,1 0,0 1.98117,-0.993387 C 1.67173,-0.364515 1.67301,0.372641 1.98465,1.00043"
+   style="stroke:none"
+   id="path1194"
+   inkscape:connector-curvature="0" />
+		</g>
+		<marker
+   id="mrkr5-20"
+   class="st8"
+   v:arrowType="5"
+   v:arrowSize="2"
+   v:setback="6.16"
+   refX="-6.1599998"
+   orient="auto"
+   markerUnits="strokeWidth"
+   overflow="visible"
+   style="overflow:visible;fill:#404040;fill-opacity:1;stroke:#404040;stroke-width:0.28409091;stroke-opacity:1">
+			<use
+   xlink:href="#lend5"
+   transform="scale(-3.52)"
+   id="use1197"
+   x="0"
+   y="0"
+   width="100%"
+   height="100%" />
+		</marker>
+		<g
+   id="lend4">
+			<path
+   d="M 2,1 0,0 2,-1 v 2"
+   style="stroke:none"
+   id="path1200"
+   inkscape:connector-curvature="0" />
+		</g>
+		<marker
+   id="mrkr4-86"
+   class="st8"
+   v:arrowType="4"
+   v:arrowSize="2"
+   v:setback="6.68"
+   refX="6.6799998"
+   orient="auto"
+   markerUnits="strokeWidth"
+   overflow="visible"
+   style="overflow:visible;fill:#404040;fill-opacity:1;stroke:#404040;stroke-width:0.28409091;stroke-opacity:1">
+			<use
+   xlink:href="#lend4"
+   transform="scale(3.52)"
+   id="use1203"
+   x="0"
+   y="0"
+   width="100%"
+   height="100%" />
+		</marker>
+		<marker
+   id="mrkr4-167"
+   class="st8"
+   v:arrowType="4"
+   v:arrowSize="2"
+   v:setback="0"
+   refX="0"
+   orient="auto"
+   markerUnits="strokeWidth"
+   overflow="visible"
+   style="overflow:visible;fill:#404040;fill-opacity:1;stroke:#404040;stroke-width:0.28409091;stroke-opacity:1">
+			<use
+   xlink:href="#lend4"
+   transform="scale(3.52)"
+   id="use1206"
+   x="0"
+   y="0"
+   width="100%"
+   height="100%" />
+		</marker>
+	</defs>
+	<g
+   v:mID="9"
+   v:index="7"
+   v:groupContext="foregroundPage"
+   id="g2306"
+   transform="translate(-741.73474,-154.39669)">
+		<v:userDefs>
+			<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+			<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			<v:ud
+   v:nameU="msvThemeOrder"
+   v:val="VT0(0):26" />
+		</v:userDefs>
+		<title
+   id="title1210">MSDL SSN PROV-O </title>
+		<v:pageProperties
+   v:drawingScale="0.0393701"
+   v:pageScale="0.0393701"
+   v:drawingUnits="24"
+   v:shadowOffsetX="8.50394"
+   v:shadowOffsetY="-8.50394" />
+		<v:layer
+   v:name="Verbinder"
+   v:index="0" />
+		<g
+   id="shape1-1"
+   v:mID="1"
+   v:groupContext="shape"
+   transform="translate(1975.17,-836.375)">
+			<title
+   id="title1212">Feld.1</title>
+			<desc
+   id="desc1214">mato:Equipment</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow1-2"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect1216"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st3"
+   id="rect1219"
+   style="fill:#e0e6cd;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="11.52"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1221"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mato:Equipment</text>
+		</g>
+		<g
+   id="shape2-6"
+   v:mID="2"
+   v:groupContext="shape"
+   transform="translate(1773.91,-375.874)">
+			<title
+   id="title1224">Feld.2</title>
+			<desc
+   id="desc1226">msdl:handling and transportation equipment</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1685.48"
+   width="119.06"
+   height="56.6929" />
+			<g
+   id="shadow2-7"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st2"
+   id="rect1228"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st5"
+   id="rect1231"
+   style="fill:#fae9dc;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="7.1799998"
+   y="1672.88"
+   class="st4"
+   v:langID="1031"
+   id="text1237"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />msdl:handling and <tspan
+   x="18.15"
+   dy="1.2em"
+   class="st6"
+   id="tspan1233"
+   style="font-size:13.99991989px">transportation </tspan><tspan
+   x="28.309999"
+   dy="1.2em"
+   class="st6"
+   id="tspan1235"
+   style="font-size:13.99991989px">equipment</tspan></text>
+		</g>
+		<g
+   id="shape3-13"
+   v:mID="3"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1833.44,-778.394)">
+			<title
+   id="title1240">Dynamischer Verbinder</title>
+			<desc
+   id="desc1242">subClassOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="100.63"
+   cy="1684.84"
+   width="45.28"
+   height="17.6036" />
+			<path
+   d="m 0,1713.83 195.34,-56.28"
+   class="st7"
+   id="path1244"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="82.897697"
+   y="1680.04"
+   width="35.464699"
+   height="9.5998497"
+   class="st9"
+   id="rect1246"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="82.900002"
+   y="1687.24"
+   class="st10"
+   v:langID="1031"
+   id="text1248"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClassOf</text>
+		</g>
+		<g
+   id="shape4-23"
+   v:mID="4"
+   v:groupContext="shape"
+   transform="translate(1977.17,-375.874)">
+			<title
+   id="title1251">Feld.4</title>
+			<desc
+   id="desc1253">msdl:inspection equipment (Qualitätkontrolle)</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1685.48"
+   width="119.06"
+   height="56.6929" />
+			<g
+   id="shadow4-24"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st2"
+   id="rect1255"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st5"
+   id="rect1258"
+   style="fill:#fae9dc;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="14.58"
+   y="1672.88"
+   class="st4"
+   v:langID="1031"
+   id="text1264"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />msdl:inspection <tspan
+   x="28.309999"
+   dy="1.2em"
+   class="st6"
+   id="tspan1260"
+   style="font-size:13.99991989px">equipment </tspan><tspan
+   x="6.5599999"
+   dy="1.2em"
+   class="st6"
+   id="tspan1262"
+   style="font-size:13.99991989px">(</tspan>Qualitätkontrolle)</text>
+		</g>
+		<g
+   id="shape5-30"
+   v:mID="5"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(2042.78,-778.394)">
+			<title
+   id="title1267">Dynamischer Verbinder.5</title>
+			<desc
+   id="desc1269">subClassOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-7.08661"
+   cy="1684.84"
+   width="45.28"
+   height="17.6036" />
+			<path
+   d="m -6.09,1713.83 v -28.99 h -1.99 v -22.83"
+   class="st7"
+   id="path1271"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-24.818899"
+   y="1680.04"
+   width="35.464699"
+   height="9.5998497"
+   class="st9"
+   id="rect1273"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-24.82"
+   y="1687.24"
+   class="st10"
+   v:langID="1031"
+   id="text1275"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClassOf</text>
+		</g>
+		<g
+   id="shape6-38"
+   v:mID="6"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(2240.79,-778.394)">
+			<title
+   id="title1278">Dynamischer Verbinder.7</title>
+			<desc
+   id="desc1280">subClassOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-49.8306"
+   cy="1651.46"
+   width="45.28"
+   height="17.6036" />
+			<path
+   d="m 0,1713.83 v -62.37 h -146.56 v -9.3"
+   class="st7"
+   id="path1282"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-67.562798"
+   y="1646.66"
+   width="35.464699"
+   height="9.5998497"
+   class="st9"
+   id="rect1284"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-67.559998"
+   y="1653.86"
+   class="st10"
+   v:langID="1031"
+   id="text1286"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClassOf</text>
+		</g>
+		<g
+   id="shape7-46"
+   v:mID="7"
+   v:groupContext="shape"
+   transform="translate(1975.17,-1055.52)">
+			<title
+   id="title1289">Feld.7</title>
+			<desc
+   id="desc1291">ssn:System</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow7-47"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect1293"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st11"
+   id="rect1296"
+   style="fill:#e1ebf3;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="27.959999"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1298"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />ssn:System</text>
+		</g>
+		<g
+   id="shape12-51"
+   v:mID="12"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(2094.23,-1075.37)">
+			<title
+   id="title1301">Dynamischer Verbinder.4</title>
+			<desc
+   id="desc1303">ssn:hasSubSystem</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-9.2126"
+   cy="1683.35"
+   width="99.71"
+   height="22.4037" />
+			<path
+   d="m 0,1713.83 h 10.63 v -30.48 h -70.16 v 4.47"
+   class="st7"
+   id="path1305"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-53.7062"
+   y="1676.15"
+   width="88.987297"
+   height="14.4001"
+   class="st9"
+   id="rect1307"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-53.709999"
+   y="1686.95"
+   class="st12"
+   v:langID="1031"
+   id="text1309"
+   style="font-size:12.00012016px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />ssn:hasSubSystem</text>
+		</g>
+		<g
+   id="shape13-59"
+   v:mID="13"
+   v:groupContext="shape"
+   transform="translate(2921.1,-873.354)">
+			<title
+   id="title1312">Feld.24</title>
+			<desc
+   id="desc1314">msdl:tool</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1690.44"
+   width="119.06"
+   height="46.7717" />
+			<g
+   id="shadow13-60"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1667.0601"
+   width="119.055"
+   height="46.771702"
+   class="st2"
+   id="rect1316"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1667.0601"
+   width="119.055"
+   height="46.771702"
+   class="st5"
+   id="rect1319"
+   style="fill:#fae9dc;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="32.709999"
+   y="1694.64"
+   class="st4"
+   v:langID="1031"
+   id="text1321"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />msdl:tool</text>
+		</g>
+		<g
+   id="shape14-64"
+   v:mID="14"
+   v:groupContext="shape"
+   transform="translate(2371.18,-594.142)">
+			<title
+   id="title1324">Feld.21</title>
+			<desc
+   id="desc1326">msdl:production tool MSDL_0000036</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1685.48"
+   width="119.06"
+   height="56.6929" />
+			<g
+   id="shadow14-65"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st2"
+   id="rect1328"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st5"
+   id="rect1331"
+   style="fill:#fae9dc;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="12.6"
+   y="1672.88"
+   class="st4"
+   v:langID="1031"
+   id="text1337"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />msdl:production  <tspan
+   x="48.189999"
+   dy="1.2em"
+   class="st6"
+   id="tspan1333"
+   style="font-size:13.99991989px">tool<v:newlineChar /></tspan><tspan
+   x="14.76"
+   dy="1.2em"
+   class="st6"
+   id="tspan1335"
+   style="font-size:13.99991989px">MSDL</tspan>_0000036</text>
+		</g>
+		<g
+   id="shape15-71"
+   v:mID="15"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(2430.71,-650.835)">
+			<title
+   id="title1340">Dynamischer Verbinder.22</title>
+			<desc
+   id="desc1342">subClasssOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-15.5906"
+   cy="1614.61"
+   width="48.41"
+   height="17.6036" />
+			<path
+   d="m 0,1713.83 v -99.22 h -124.23"
+   class="st7"
+   id="path1344"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-34.887199"
+   y="1609.8101"
+   width="38.593601"
+   height="9.5998497"
+   class="st9"
+   id="rect1346"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-34.889999"
+   y="1617.01"
+   class="st10"
+   v:langID="1031"
+   id="text1348"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClasssOf</text>
+		</g>
+		<g
+   id="shape18-79"
+   v:mID="18"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1688.03,-742.961)">
+			<title
+   id="title1351">Dynamischer Verbinder.31</title>
+			<desc
+   id="desc1353">owl:disjointWith</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="42.9397"
+   cy="1706.74"
+   width="63.59"
+   height="17.6036" />
+			<path
+   d="M 6.68,1706.74 H 7.04 79.72"
+   class="st13"
+   id="path1355"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#mrkr4-86);marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="16.055401"
+   y="1701.9399"
+   width="53.7687"
+   height="9.5998497"
+   class="st9"
+   id="rect1357"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="16.059999"
+   y="1709.14"
+   class="st10"
+   v:langID="1031"
+   id="text1359"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />owl:disjointWith</text>
+		</g>
+		<g
+   id="shape19-90"
+   v:mID="19"
+   v:groupContext="shape"
+   transform="translate(2343.67,-1055.52)">
+			<title
+   id="title1362">Feld.35</title>
+			<desc
+   id="desc1364">sosa:Procedure</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow19-91"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect1366"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st11"
+   id="rect1369"
+   style="fill:#e1ebf3;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="17.25"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1371"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />sosa:Procedure</text>
+		</g>
+		<g
+   id="shape20-95"
+   v:mID="20"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(2094.23,-1068.28)">
+			<title
+   id="title1374">Dynamischer Verbinder.20</title>
+			<desc
+   id="desc1376">ssn:implements</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="124.724"
+   cy="1706.74"
+   width="87.57"
+   height="22.4037" />
+			<path
+   d="M 0,1706.74 H 243.29"
+   class="st7"
+   id="path1378"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="86.301102"
+   y="1699.54"
+   width="76.846901"
+   height="14.4001"
+   class="st9"
+   id="rect1380"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="86.300003"
+   y="1710.34"
+   class="st12"
+   v:langID="1031"
+   id="text1382"
+   style="font-size:12.00012016px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />ssn:implements</text>
+		</g>
+		<g
+   id="shape21-103"
+   v:mID="21"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1975.17,-856.218)">
+			<title
+   id="title1385">Dynamischer Verbinder.21</title>
+			<desc
+   id="desc1387">mato:has manufacturer</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-49.0786"
+   cy="1603.41"
+   width="86.78"
+   height="17.6036" />
+			<path
+   d="M 0,1713.83 H -10.63 V 1603.41 H -202.41"
+   class="st7"
+   id="path1389"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-87.558601"
+   y="1598.61"
+   width="76.960297"
+   height="9.5998497"
+   class="st9"
+   id="rect1391"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-87.559998"
+   y="1605.8101"
+   class="st14"
+   v:langID="1031"
+   id="text1397"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#ff0000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mato<tspan
+   class="st15"
+   id="tspan1393"
+   style="font-size:7.99996805px;fill:#000000">:</tspan><tspan
+   class="st15"
+   id="tspan1395"
+   style="font-size:7.99996805px;fill:#000000">has manufacturer</tspan></text>
+		</g>
+		<g
+   id="shape22-113"
+   v:mID="22"
+   v:groupContext="shape"
+   transform="translate(1696.04,-952.596)">
+			<title
+   id="title1400">Tabelle.22</title>
+			<desc
+   id="desc1402">string</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="35.2913"
+   cy="1699.18"
+   width="70.59"
+   height="29.2874" />
+			<g
+   id="shadow22-114"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<ellipse
+   cx="35.291302"
+   cy="1699.1801"
+   rx="35.291302"
+   ry="14.6437"
+   class="st2"
+   id="ellipse1404"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<ellipse
+   cx="35.291302"
+   cy="1699.1801"
+   rx="35.291302"
+   ry="14.6437"
+   class="st16"
+   id="ellipse1407"
+   style="fill:#e7e3ee;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="19.190001"
+   y="1703.38"
+   class="st4"
+   v:langID="1031"
+   id="text1409"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />string</text>
+		</g>
+		<g
+   id="shape23-118"
+   v:mID="23"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1975.17,-856.218)">
+			<title
+   id="title1412">Dynamischer Verbinder.23</title>
+			<desc
+   id="desc1414">mato:has model</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-78.9982"
+   cy="1663.28"
+   width="62.68"
+   height="17.6036" />
+			<path
+   d="m 0,1713.83 h -10.63 v -50.55 h -191.75"
+   class="st7"
+   id="path1416"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-105.429"
+   y="1658.48"
+   width="52.862598"
+   height="9.5998497"
+   class="st9"
+   id="rect1418"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-105.43"
+   y="1665.6801"
+   class="st14"
+   v:langID="1031"
+   id="text1424"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#ff0000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mato<tspan
+   class="st15"
+   id="tspan1420"
+   style="font-size:7.99996805px;fill:#000000">:</tspan><tspan
+   class="st15"
+   id="tspan1422"
+   style="font-size:7.99996805px;fill:#000000">has model</tspan></text>
+		</g>
+		<g
+   id="shape24-128"
+   v:mID="24"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1975.17,-863.26)">
+			<title
+   id="title1427">Dynamischer Verbinder.24</title>
+			<desc
+   id="desc1429">mato:has description</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-104.272"
+   cy="1720.91"
+   width="78.51"
+   height="17.6036" />
+			<path
+   d="m 0,1720.87 -202.38,0.09"
+   class="st7"
+   id="path1431"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-138.619"
+   y="1716.11"
+   width="68.694504"
+   height="9.5998497"
+   class="st9"
+   id="rect1433"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-138.62"
+   y="1723.3101"
+   class="st14"
+   v:langID="1031"
+   id="text1439"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#ff0000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mato<tspan
+   class="st15"
+   id="tspan1435"
+   style="font-size:7.99996805px;fill:#000000">:</tspan><tspan
+   class="st15"
+   id="tspan1437"
+   style="font-size:7.99996805px;fill:#000000">has description</tspan></text>
+		</g>
+		<g
+   id="shape25-138"
+   v:mID="25"
+   v:groupContext="shape"
+   transform="translate(2178.43,-375.874)">
+			<title
+   id="title1442">Feld.34</title>
+			<desc
+   id="desc1444">msdl:production equipment MSDL_0000030</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1685.48"
+   width="119.06"
+   height="56.6929" />
+			<g
+   id="shadow25-139"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st2"
+   id="rect1446"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st5"
+   id="rect1449"
+   style="fill:#fae9dc;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="12.6"
+   y="1672.88"
+   class="st4"
+   v:langID="1031"
+   id="text1455"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />msdl:production  <tspan
+   x="28.309999"
+   dy="1.2em"
+   class="st6"
+   id="tspan1451"
+   style="font-size:13.99991989px">equipment<v:newlineChar /></tspan><tspan
+   x="14.76"
+   dy="1.2em"
+   class="st6"
+   id="tspan1453"
+   style="font-size:13.99991989px">MSDL</tspan>_0000030</text>
+		</g>
+		<g
+   id="shape26-145"
+   v:mID="26"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(2096.22,-742.961)">
+			<title
+   id="title1458">Dynamischer Verbinder.40</title>
+			<desc
+   id="desc1460">owl:disjointWith</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="42.5197"
+   cy="1706.74"
+   width="63.59"
+   height="17.6036" />
+			<path
+   d="M 6.68,1706.74 H 7.04 78.88"
+   class="st13"
+   id="path1462"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#mrkr4-86);marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="15.6354"
+   y="1701.9399"
+   width="53.7687"
+   height="9.5998497"
+   class="st9"
+   id="rect1464"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="15.64"
+   y="1709.14"
+   class="st10"
+   v:langID="1031"
+   id="text1466"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />owl:disjointWith</text>
+		</g>
+		<g
+   id="shape29-155"
+   v:mID="29"
+   v:groupContext="shape"
+   transform="translate(3147.49,-756.296)">
+			<title
+   id="title1469">Box.34</title>
+			<desc
+   id="desc1471">mason:Tool</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1689.73"
+   width="119.06"
+   height="48.189" />
+			<g
+   id="shadow29-156"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1665.64"
+   width="119.055"
+   height="48.188999"
+   class="st2"
+   id="rect1473"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1665.64"
+   width="119.055"
+   height="48.188999"
+   class="st17"
+   id="rect1476"
+   style="fill:#a6c3dd;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="26.200001"
+   y="1693.9301"
+   class="st4"
+   v:langID="1031"
+   id="text1478"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mason:Tool</text>
+		</g>
+		<g
+   id="shape30-160"
+   v:mID="30"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(3040.54,-772.306)">
+			<title
+   id="title1481">Dynamischer Verbinder.30</title>
+			<desc
+   id="desc1483">owl:sameAs</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="52.4723"
+   cy="1705.74"
+   width="48.82"
+   height="17.6036" />
+			<path
+   d="m 0,1707.74 v -2 h 0.09 a 2.3622,2.3622 0 0 1 4.72,0 h 95.97"
+   class="st18"
+   id="path1485"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#mrkr4-167);marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="32.970798"
+   y="1700.9399"
+   width="39.003399"
+   height="9.5998497"
+   class="st9"
+   id="rect1487"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="32.970001"
+   y="1708.14"
+   class="st10"
+   v:langID="1031"
+   id="text1489"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />owl:sameAs</text>
+		</g>
+		<g
+   id="shape33-171"
+   v:mID="33"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(3077.4,-693.354)">
+			<title
+   id="title1492">Dynamischer Verbinder.33</title>
+			<desc
+   id="desc1494">subClasssOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="96.2806"
+   cy="1713.83"
+   width="48.41"
+   height="17.6036" />
+			<path
+   d="m 0,1713.83 h 129.62 v -56.79"
+   class="st7"
+   id="path1496"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="76.983902"
+   y="1709.03"
+   width="38.593601"
+   height="9.5998497"
+   class="st9"
+   id="rect1498"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="76.980003"
+   y="1716.23"
+   class="st10"
+   v:langID="1031"
+   id="text1500"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClasssOf</text>
+		</g>
+		<g
+   id="shape34-179"
+   v:mID="34"
+   v:groupContext="shape"
+   transform="translate(1696.04,-892.121)">
+			<title
+   id="title1503">Tabelle.34</title>
+			<desc
+   id="desc1505">string</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="35.2913"
+   cy="1699.18"
+   width="70.59"
+   height="29.2874" />
+			<g
+   id="shadow34-180"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<ellipse
+   cx="35.291302"
+   cy="1699.1801"
+   rx="35.291302"
+   ry="14.6437"
+   class="st2"
+   id="ellipse1507"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<ellipse
+   cx="35.291302"
+   cy="1699.1801"
+   rx="35.291302"
+   ry="14.6437"
+   class="st16"
+   id="ellipse1510"
+   style="fill:#e7e3ee;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="19.190001"
+   y="1703.38"
+   class="st4"
+   v:langID="1031"
+   id="text1512"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />string</text>
+		</g>
+		<g
+   id="shape35-184"
+   v:mID="35"
+   v:groupContext="shape"
+   transform="translate(1696.04,-841.574)">
+			<title
+   id="title1515">Tabelle.35</title>
+			<desc
+   id="desc1517">string</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="35.2913"
+   cy="1699.18"
+   width="70.59"
+   height="29.2874" />
+			<g
+   id="shadow35-185"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<ellipse
+   cx="35.291302"
+   cy="1699.1801"
+   rx="35.291302"
+   ry="14.6437"
+   class="st2"
+   id="ellipse1519"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<ellipse
+   cx="35.291302"
+   cy="1699.1801"
+   rx="35.291302"
+   ry="14.6437"
+   class="st16"
+   id="ellipse1522"
+   style="fill:#e7e3ee;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="19.190001"
+   y="1703.38"
+   class="st4"
+   v:langID="1031"
+   id="text1524"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />string</text>
+		</g>
+		<g
+   id="shape36-189"
+   v:mID="36"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(2027.61,-876.06)">
+			<title
+   id="title1527">Dynamischer Verbinder.71</title>
+			<desc
+   id="desc1529">subClasssOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="7.08661"
+   cy="1624.09"
+   width="48.41"
+   height="17.6036" />
+			<path
+   d="M 7.09,1713.83 V 1540.52"
+   class="st7"
+   id="path1531"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-12.2101"
+   y="1619.29"
+   width="38.593601"
+   height="9.5998497"
+   class="st9"
+   id="rect1533"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-12.21"
+   y="1626.49"
+   class="st10"
+   v:langID="1031"
+   id="text1535"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClasssOf</text>
+		</g>
+		<g
+   id="shape37-197"
+   v:mID="37"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(3042.99,-707.528)">
+			<title
+   id="title1538">Dynamischer Verbinder.28</title>
+			<desc
+   id="desc1540">subClassOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-15.5919"
+   cy="1619.45"
+   width="45.28"
+   height="17.6036" />
+			<path
+   d="m 0,1713.83 v -94.38 h -119.4"
+   class="st7"
+   id="path1542"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-33.3241"
+   y="1614.65"
+   width="35.464699"
+   height="9.5998497"
+   class="st9"
+   id="rect1544"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-33.32"
+   y="1621.85"
+   class="st10"
+   v:langID="1031"
+   id="text1546"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClassOf</text>
+		</g>
+		<g
+   id="shape39-205"
+   v:mID="39"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1826.35,-432.567)">
+			<title
+   id="title1549">Dynamischer Verbinder.54</title>
+			<desc
+   id="desc1551">skos:broadMatch</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="7.08661"
+   cy="1569.26"
+   width="66.25"
+   height="17.6036" />
+			<path
+   d="M 7.09,1713.83 V 1430.85"
+   class="st7"
+   id="path1553"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-21.131901"
+   y="1564.46"
+   width="56.437302"
+   height="9.5998497"
+   class="st9"
+   id="rect1555"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-21.129999"
+   y="1571.66"
+   class="st10"
+   v:langID="1031"
+   id="text1557"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />skos:broadMatch</text>
+		</g>
+		<g
+   id="shape40-213"
+   v:mID="40"
+   v:groupContext="shape"
+   transform="translate(3147.49,-921.415)">
+			<title
+   id="title1560">Box.55</title>
+			<desc
+   id="desc1562">mason:Raw material</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1689.73"
+   width="119.06"
+   height="48.189" />
+			<g
+   id="shadow40-214"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1665.64"
+   width="119.055"
+   height="48.188999"
+   class="st2"
+   id="rect1564"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1665.64"
+   width="119.055"
+   height="48.188999"
+   class="st17"
+   id="rect1567"
+   style="fill:#a6c3dd;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="26.450001"
+   y="1685.53"
+   class="st4"
+   v:langID="1031"
+   id="text1571"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mason:Raw <tspan
+   x="35.75"
+   dy="1.2em"
+   class="st6"
+   id="tspan1569"
+   style="font-size:13.99991989px">material</tspan></text>
+		</g>
+		<g
+   id="shape41-219"
+   v:mID="41"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(3199.93,-921.415)">
+			<title
+   id="title1574">Dynamischer Verbinder.56</title>
+			<desc
+   id="desc1576">http://www.owl-ontologies.com/mason.owl#isMachinableWithTool</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="7.08661"
+   cy="1772.29"
+   width="342.74"
+   height="22.4037" />
+			<path
+   d="M 7.09,1713.83 V 1824.6"
+   class="st7"
+   id="path1578"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-158.923"
+   y="1765.09"
+   width="332.01901"
+   height="14.4001"
+   class="st9"
+   id="rect1580"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-158.92"
+   y="1775.89"
+   class="st12"
+   v:langID="1031"
+   id="text1582"
+   style="font-size:12.00012016px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />http://www.owl-ontologies.com/mason.owl#isMachinableWithTool</text>
+		</g>
+		<g
+   id="shape42-227"
+   v:mID="42"
+   v:groupContext="shape"
+   transform="translate(3640.72,-919.462)">
+			<title
+   id="title1585">Box.60</title>
+			<desc
+   id="desc1587">mason:Manufacturing operation</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1687.34"
+   width="119.06"
+   height="52.9763" />
+			<g
+   id="shadow42-228"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1660.85"
+   width="119.055"
+   height="52.976299"
+   class="st2"
+   id="rect1589"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1660.85"
+   width="119.055"
+   height="52.976299"
+   class="st17"
+   id="rect1592"
+   style="fill:#a6c3dd;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="5"
+   y="1683.14"
+   class="st4"
+   v:langID="1031"
+   id="text1596"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mason:Manufactur<tspan
+   x="21.4"
+   dy="1.2em"
+   class="st6"
+   id="tspan1594"
+   style="font-size:13.99991989px">ing operation</tspan></text>
+		</g>
+		<g
+   id="shape43-233"
+   v:mID="43"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(3266.54,-938.643)">
+			<title
+   id="title1599">Dynamic connector.56</title>
+			<desc
+   id="desc1601">http://www.owl-ontologies.com/mason.owl#isMachinableByProcess</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="186.866"
+   cy="1706.52"
+   width="346.83"
+   height="22.4037" />
+			<path
+   d="m 0,1706.96 h 10.63 v -0.44 h 357.38"
+   class="st7"
+   id="path1603"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="18.812099"
+   y="1699.3199"
+   width="336.108"
+   height="14.4001"
+   class="st9"
+   id="rect1605"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="18.809999"
+   y="1710.12"
+   class="st12"
+   v:langID="1031"
+   id="text1607"
+   style="font-size:12.00012016px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />http://www.owl-ontologies.com/mason.owl#isMachinableByProcess</text>
+		</g>
+		<g
+   id="shape44-241"
+   v:mID="44"
+   v:groupContext="shape"
+   transform="rotate(-0.369645,-43184.5,-239304.67)">
+			<title
+   id="title1610">Tabelle.44</title>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<g
+   id="shadow44-242"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.43068,1.44926)"
+   class="st1"
+   style="visibility:visible">
+				<path
+   d="M 0,1713.83 H 1757.52"
+   class="st19"
+   id="path1612"
+   inkscape:connector-curvature="0"
+   style="stroke:#cdcdcd;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<path
+   d="M 0,1713.83 H 1757.52"
+   class="st20"
+   id="path1615"
+   inkscape:connector-curvature="0"
+   style="stroke:#c00000;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:round" />
+		</g>
+		<g
+   id="shape45-249"
+   v:mID="45"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1975.17,-1075.37)">
+			<title
+   id="title1618">Dynamischer Verbinder.45</title>
+			<desc
+   id="desc1620">subClasssOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-20.4061"
+   cy="1641.01"
+   width="49.09"
+   height="21.204" />
+			<path
+   d="m 0,1713.83 h -38.46 v -72.82 h 20.31 a 2.3622,2.3622 0 0 1 4.72,0 h 85.52 v -30.69"
+   class="st7"
+   id="path1622"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-39.7029"
+   y="1634.41"
+   width="38.593601"
+   height="13.2003"
+   class="st9"
+   id="rect1624"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-39.700001"
+   y="1644.3101"
+   class="st10"
+   v:langID="1031"
+   id="text1626"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClasssOf</text>
+		</g>
+		<g
+   id="shape46-257"
+   v:mID="46"
+   v:groupContext="shape"
+   transform="translate(1987.73,-1185.04)">
+			<title
+   id="title1629">Feld.46</title>
+			<desc
+   id="desc1631">prov:Agent</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow46-258"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect1633"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st21"
+   id="rect1636"
+   style="fill:#b8c1e0;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="27.83"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1638"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />prov:Agent</text>
+		</g>
+		<g
+   id="shape47-262"
+   v:mID="47"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(2106.78,-1197.79)">
+			<title
+   id="title1641">Dynamischer Verbinder.47</title>
+			<desc
+   id="desc1643">prov:atLocation</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="63.3112"
+   cy="1706.74"
+   width="87.54"
+   height="22.4037" />
+			<path
+   d="M 0,1706.74 H 120.46"
+   class="st7"
+   id="path1645"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="24.902901"
+   y="1699.54"
+   width="76.817001"
+   height="14.4001"
+   class="st9"
+   id="rect1647"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="24.9"
+   y="1710.34"
+   class="st12"
+   v:langID="1031"
+   id="text1649"
+   style="font-size:12.00012016px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />prov:atLocation</text>
+		</g>
+		<g
+   id="shape48-270"
+   v:mID="48"
+   v:groupContext="shape"
+   transform="translate(1012.61,-683.304)">
+			<title
+   id="title1652">Feld.48</title>
+			<desc
+   id="desc1654">Prov-O</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow48-271"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect1656"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st21"
+   id="rect1659"
+   style="fill:#b8c1e0;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="39.84"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1661"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />Prov-O</text>
+		</g>
+		<g
+   id="shape49-275"
+   v:mID="49"
+   v:groupContext="shape"
+   transform="translate(1012.61,-559.997)">
+			<title
+   id="title1664">Box.15</title>
+			<desc
+   id="desc1666">SSN Ontology</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow49-276"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect1668"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st11"
+   id="rect1671"
+   style="fill:#e1ebf3;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="20.879999"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1673"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />SSN Ontology</text>
+		</g>
+		<g
+   id="shape50-280"
+   v:mID="50"
+   v:groupContext="shape"
+   transform="translate(1012.61,-499.052)">
+			<title
+   id="title1676">Feld.50</title>
+			<desc
+   id="desc1678">MSDL Ontology</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow50-281"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect1680"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st5"
+   id="rect1683"
+   style="fill:#fae9dc;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="15.38"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1685"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />MSDL Ontology</text>
+		</g>
+		<g
+   id="shape51-285"
+   v:mID="51"
+   v:groupContext="shape"
+   transform="translate(1012.61,-432.438)">
+			<title
+   id="title1688">Box.32</title>
+			<desc
+   id="desc1690">MASON Ontology</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1691.15"
+   width="119.06"
+   height="45.3543" />
+			<g
+   id="shadow51-286"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1668.47"
+   width="119.055"
+   height="45.354301"
+   class="st2"
+   id="rect1692"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1668.47"
+   width="119.055"
+   height="45.354301"
+   class="st17"
+   id="rect1695"
+   style="fill:#a6c3dd;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="9.4300003"
+   y="1695.35"
+   class="st4"
+   v:langID="1031"
+   id="text1697"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />MASON Ontology</text>
+		</g>
+		<g
+   id="shape52-290"
+   v:mID="52"
+   v:groupContext="shape"
+   transform="translate(1013.04,-371.493)">
+			<title
+   id="title1700">Feld.52</title>
+			<desc
+   id="desc1702">mato</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="57.8976"
+   cy="1693.98"
+   width="115.8"
+   height="39.685" />
+			<g
+   id="shadow52-291"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="115.795"
+   height="39.685001"
+   class="st2"
+   id="rect1704"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="115.795"
+   height="39.685001"
+   class="st22"
+   id="rect1707"
+   style="fill:#e0e6cd;stroke:#c00000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="42.919998"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1709"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mato</text>
+		</g>
+		<g
+   id="shape53-295"
+   v:mID="53"
+   v:groupContext="shape"
+   transform="translate(2233.41,-1190.24)">
+			<title
+   id="title1712">Tabelle.53</title>
+			<desc
+   id="desc1714">string</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="35.2913"
+   cy="1699.18"
+   width="70.59"
+   height="29.2874" />
+			<g
+   id="shadow53-296"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<ellipse
+   cx="35.291302"
+   cy="1699.1801"
+   rx="35.291302"
+   ry="14.6437"
+   class="st2"
+   id="ellipse1716"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<ellipse
+   cx="35.291302"
+   cy="1699.1801"
+   rx="35.291302"
+   ry="14.6437"
+   class="st16"
+   id="ellipse1719"
+   style="fill:#e7e3ee;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="19.190001"
+   y="1703.38"
+   class="st4"
+   v:langID="1031"
+   id="text1721"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />string</text>
+		</g>
+		<g
+   id="shape54-300"
+   v:mID="54"
+   v:groupContext="shape"
+   transform="translate(1568.98,-721.701)">
+			<title
+   id="title1724">Feld.72</title>
+			<desc
+   id="desc1726">mato:Test equipment</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1685.48"
+   width="119.06"
+   height="56.6929" />
+			<g
+   id="shadow54-301"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st2"
+   id="rect1728"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st3"
+   id="rect1731"
+   style="fill:#e0e6cd;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="30.700001"
+   y="1681.28"
+   class="st4"
+   v:langID="1031"
+   id="text1735"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mato:Test <tspan
+   x="28.309999"
+   dy="1.2em"
+   class="st6"
+   id="tspan1733"
+   style="font-size:13.99991989px">equipment</tspan></text>
+		</g>
+		<g
+   id="shape55-306"
+   v:mID="55"
+   v:groupContext="shape"
+   transform="translate(2300.31,-497.764)">
+			<title
+   id="title1738">Feld.15</title>
+			<desc
+   id="desc1740">mato:Software tool</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="63.7795"
+   cy="1693.98"
+   width="127.56"
+   height="39.685" />
+			<g
+   id="shadow55-307"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="127.559"
+   height="39.685001"
+   class="st2"
+   id="rect1742"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="127.559"
+   height="39.685001"
+   class="st3"
+   id="rect1745"
+   style="fill:#e0e6cd;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="8.3400002"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1747"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mato:Software tool</text>
+		</g>
+		<g
+   id="shape56-311"
+   v:mID="56"
+   v:groupContext="shape"
+   transform="translate(2495.91,-497.764)">
+			<title
+   id="title1750">Feld.36</title>
+			<desc
+   id="desc1752">mato:Machine tool</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="65.1969"
+   cy="1693.98"
+   width="130.4"
+   height="39.685" />
+			<g
+   id="shadow56-312"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="130.394"
+   height="39.685001"
+   class="st2"
+   id="rect1754"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="130.394"
+   height="39.685001"
+   class="st3"
+   id="rect1757"
+   style="fill:#e0e6cd;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="10.68"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1759"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mato:Machine tool</text>
+		</g>
+		<g
+   id="shape57-316"
+   v:mID="57"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(2360.55,-537.449)">
+			<title
+   id="title1762">Dynamischer Verbinder.57</title>
+			<desc
+   id="desc1764">subClasssOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="3.54331"
+   cy="1667.76"
+   width="48.41"
+   height="17.6036" />
+			<path
+   d="m 3.54,1713.83 v -85.04 h 0.93"
+   class="st7"
+   id="path1766"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-15.7534"
+   y="1662.96"
+   width="38.593601"
+   height="9.5998497"
+   class="st9"
+   id="rect1768"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-15.75"
+   y="1670.16"
+   class="st10"
+   v:langID="1031"
+   id="text1770"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClasssOf</text>
+		</g>
+		<g
+   id="shape58-324"
+   v:mID="58"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(2561.1,-537.449)">
+			<title
+   id="title1773">Dynamischer Verbinder.74</title>
+			<desc
+   id="desc1775">subClasssOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-4.54747E-013"
+   cy="1635.87"
+   width="48.41"
+   height="17.6036" />
+			<path
+   d="m 0,1713.83 v -85.04 h -64.71"
+   class="st7"
+   id="path1777"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-19.2967"
+   y="1631.0699"
+   width="38.593601"
+   height="9.5998497"
+   class="st9"
+   id="rect1779"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-19.299999"
+   y="1638.27"
+   class="st10"
+   v:langID="1031"
+   id="text1781"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClasssOf</text>
+		</g>
+		<g
+   id="shape59-332"
+   v:mID="59"
+   v:groupContext="shape"
+   transform="translate(1899.86,-1369.29)">
+			<title
+   id="title1784">Feld.59</title>
+			<desc
+   id="desc1786">prov:Person</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow59-333"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect1788"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st21"
+   id="rect1791"
+   style="fill:#b8c1e0;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="25.040001"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1793"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />prov:Person</text>
+		</g>
+		<g
+   id="shape60-337"
+   v:mID="60"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1959.38,-1408.97)">
+			<title
+   id="title1796">Dynamischer Verbinder.60</title>
+			<desc
+   id="desc1798">subClasssOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="87.874"
+   cy="1751.39"
+   width="49.09"
+   height="21.204" />
+			<path
+   d="m 0,1713.83 v -10.63 h 87.87 v 188.72"
+   class="st7"
+   id="path1800"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="68.577202"
+   y="1744.79"
+   width="38.593601"
+   height="13.2003"
+   class="st9"
+   id="rect1802"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="68.580002"
+   y="1754.6899"
+   class="st10"
+   v:langID="1031"
+   id="text1804"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClasssOf</text>
+		</g>
+		<g
+   id="shape61-345"
+   v:mID="61"
+   v:groupContext="shape"
+   transform="translate(1696.04,-1420.31)">
+			<title
+   id="title1807">Feld.77</title>
+			<desc
+   id="desc1809">prov:Organization</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow61-346"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect1811"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st21"
+   id="rect1814"
+   style="fill:#b8c1e0;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="8.2399998"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1816"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />prov:Organization</text>
+		</g>
+		<g
+   id="shape62-350"
+   v:mID="62"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1755.57,-1460)">
+			<title
+   id="title1819">Dynamischer Verbinder.78</title>
+			<desc
+   id="desc1821">owl:disjointWith</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="127.417"
+   cy="1703.2"
+   width="63.59"
+   height="17.6036" />
+			<path
+   d="m 0,1707.15 v -0.36 -3.59 h 203.81 v 55.49"
+   class="st13"
+   id="path1823"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#mrkr4-86);marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="100.533"
+   y="1698.4"
+   width="53.7687"
+   height="9.5998497"
+   class="st9"
+   id="rect1825"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="100.53"
+   y="1705.6"
+   class="st10"
+   v:langID="1031"
+   id="text1827"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />owl:disjointWith</text>
+		</g>
+		<g
+   id="shape63-360"
+   v:mID="63"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1959.38,-1369.29)">
+			<title
+   id="title1830">Dynamischer Verbinder.79</title>
+			<desc
+   id="desc1832">owl:disjointWith</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="0"
+   cy="1888.52"
+   width="63.59"
+   height="17.6036" />
+			<path
+   d="m 0,1720.51 v 0.36 267.04 h 69.16"
+   class="st13"
+   id="path1834"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#mrkr4-86);marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-26.8843"
+   y="1883.72"
+   width="53.7687"
+   height="9.5998497"
+   class="st9"
+   id="rect1836"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-26.879999"
+   y="1890.92"
+   class="st10"
+   v:langID="1031"
+   id="text1838"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />owl:disjointWith</text>
+		</g>
+		<g
+   id="shape64-370"
+   v:mID="64"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1815.1,-1440.15)">
+			<title
+   id="title1841">Dynamischer Verbinder.80</title>
+			<desc
+   id="desc1843">owl:disjointWith</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="50.7402"
+   cy="1925.52"
+   width="63.59"
+   height="17.6036" />
+			<path
+   d="m 6.68,1713.83 h 0.36 43.7 v 364.78 h 103.17"
+   class="st13"
+   id="path1845"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#mrkr4-86);marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="23.8559"
+   y="1920.72"
+   width="53.7687"
+   height="9.5998497"
+   class="st9"
+   id="rect1847"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="23.860001"
+   y="1927.92"
+   class="st10"
+   v:langID="1031"
+   id="text1849"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />owl:disjointWith</text>
+		</g>
+		<g
+   id="shape65-380"
+   v:mID="65"
+   v:groupContext="shape"
+   transform="translate(831.194,-1488.34)">
+			<title
+   id="title1852">Feld.81</title>
+			<desc
+   id="desc1854">frapo:Project</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow65-381"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect1856"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st23"
+   id="rect1859"
+   style="fill:#efe1f0;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="22.15"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1861"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />frapo:Project</text>
+		</g>
+		<g
+   id="shape66-385"
+   v:mID="66"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(831.194,-1508.19)">
+			<title
+   id="title1864">Dynamischer Verbinder.66</title>
+			<desc
+   id="desc1866">frapo:hasProjectIdentifier</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-17.6457"
+   cy="1844.88"
+   width="125.79"
+   height="21.204" />
+			<path
+   d="m 0,1713.83 h -17.65 v 273.59"
+   class="st7"
+   id="path1868"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-75.2939"
+   y="1838.28"
+   width="115.296"
+   height="13.2003"
+   class="st9"
+   id="rect1870"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-75.290001"
+   y="1848.1801"
+   class="st24"
+   v:langID="1031"
+   id="text1872"
+   style="font-size:11.0000639px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />frapo:hasProjectIdentifier</text>
+		</g>
+		<g
+   id="shape67-393"
+   v:mID="67"
+   v:groupContext="shape"
+   transform="translate(795.903,-1201.1)">
+			<title
+   id="title1875">Tabelle.67</title>
+			<desc
+   id="desc1877">string</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="35.2913"
+   cy="1699.18"
+   width="70.59"
+   height="29.2874" />
+			<g
+   id="shadow67-394"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<ellipse
+   cx="35.291302"
+   cy="1699.1801"
+   rx="35.291302"
+   ry="14.6437"
+   class="st2"
+   id="ellipse1879"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<ellipse
+   cx="35.291302"
+   cy="1699.1801"
+   rx="35.291302"
+   ry="14.6437"
+   class="st16"
+   id="ellipse1882"
+   style="fill:#e7e3ee;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="19.190001"
+   y="1703.38"
+   class="st4"
+   v:langID="1031"
+   id="text1884"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />string</text>
+		</g>
+		<g
+   id="shape68-398"
+   v:mID="68"
+   v:groupContext="shape"
+   transform="translate(1013.04,-738.58)">
+			<title
+   id="title1887">Feld.84</title>
+			<desc
+   id="desc1889">FRAPO</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow68-399"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect1891"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st23"
+   id="rect1894"
+   style="fill:#efe1f0;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="40.209999"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1896"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />FRAPO</text>
+		</g>
+		<g
+   id="shape69-403"
+   v:mID="69"
+   v:groupContext="shape"
+   transform="translate(1417.97,-1420.31)">
+			<title
+   id="title1899">Feld.69</title>
+			<desc
+   id="desc1901">org:Organization</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow69-404"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect1903"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st25"
+   id="rect1906"
+   style="fill:#b1e4e7;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="11.78"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1908"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />org:Organization</text>
+		</g>
+		<g
+   id="shape70-408"
+   v:mID="70"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1696.04,-1433.07)">
+			<title
+   id="title1911">Dynamischer Verbinder.6</title>
+			<desc
+   id="desc1913">owl:equivalentClass</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-79.5118"
+   cy="1706.74"
+   width="74.29"
+   height="17.6036" />
+			<path
+   d="M -6.68,1706.74 H -7.04 -152.86"
+   class="st13"
+   id="path1915"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#mrkr4-86);marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-111.748"
+   y="1701.9399"
+   width="64.471901"
+   height="9.5998497"
+   class="st9"
+   id="rect1917"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-111.75"
+   y="1709.14"
+   class="st10"
+   v:langID="1031"
+   id="text1919"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />owl:equivalentClass</text>
+		</g>
+		<g
+   id="shape71-418"
+   v:mID="71"
+   v:groupContext="shape"
+   transform="translate(1619.23,-1185.04)">
+			<title
+   id="title1922">Box.16</title>
+			<desc
+   id="desc1924">foaf:Agent</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow71-419"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect1926"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st26"
+   id="rect1929"
+   style="fill:#b1e7c7;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="29.49"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1931"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />foaf:Agent</text>
+		</g>
+		<g
+   id="shape72-423"
+   v:mID="72"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1987.73,-1197.79)">
+			<title
+   id="title1934">Dynamischer Verbinder.72</title>
+			<desc
+   id="desc1936">owl:equivalentClass</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-124.724"
+   cy="1706.74"
+   width="74.29"
+   height="17.6036" />
+			<path
+   d="m -6.68,1706.74 h -0.36 -18.94 a 2.365,2.365 -180 0 0 -4.73,0 h -88.82 a 2.3622,2.3622 -180 0 0 -4.72,0 h -119.04"
+   class="st13"
+   id="path1938"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#mrkr4-86);marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-156.96001"
+   y="1701.9399"
+   width="64.471901"
+   height="9.5998497"
+   class="st9"
+   id="rect1940"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-156.96001"
+   y="1709.14"
+   class="st10"
+   v:langID="1031"
+   id="text1942"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />owl:equivalentClass</text>
+		</g>
+		<g
+   id="shape73-433"
+   v:mID="73"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1619.23,-1204.88)">
+			<title
+   id="title1945">Dynamischer Verbinder.18</title>
+			<desc
+   id="desc1947">org:hasMember</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-141.732"
+   cy="1676.98"
+   width="62.08"
+   height="17.6036" />
+			<path
+   d="M 0,1713.83 H -141.73 V 1504.55"
+   class="st7"
+   id="path1949"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-167.86301"
+   y="1672.1801"
+   width="52.261398"
+   height="9.5998497"
+   class="st9"
+   id="rect1951"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-167.86"
+   y="1679.38"
+   class="st10"
+   v:langID="1031"
+   id="text1953"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />org:hasMember</text>
+		</g>
+		<g
+   id="shape74-441"
+   v:mID="74"
+   v:groupContext="shape"
+   transform="translate(1013.04,-793.856)">
+			<title
+   id="title1956">Feld.19</title>
+			<desc
+   id="desc1958">The Organization Ontology</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow74-442"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect1960"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st25"
+   id="rect1963"
+   style="fill:#b1e4e7;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="10.93"
+   y="1689.78"
+   class="st4"
+   v:langID="1031"
+   id="text1967"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />The Organization <tspan
+   x="33.419998"
+   dy="1.2em"
+   class="st6"
+   id="tspan1965"
+   style="font-size:13.99991989px">Ontology</tspan></text>
+		</g>
+		<g
+   id="shape75-447"
+   v:mID="75"
+   v:groupContext="shape"
+   transform="translate(1321.59,-1326.77)">
+			<title
+   id="title1970">Feld.38</title>
+			<desc
+   id="desc1972">org:Memebership</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow75-448"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect1974"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st25"
+   id="rect1977"
+   style="fill:#b1e4e7;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="8.3800001"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text1979"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />org:Memebership</text>
+		</g>
+		<g
+   id="shape76-452"
+   v:mID="76"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1678.75,-1185.04)">
+			<title
+   id="title1982">Dynamischer Verbinder.39</title>
+			<desc
+   id="desc1984">org:hasMembership</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-219.685"
+   cy="1773.35"
+   width="75.45"
+   height="17.6036" />
+			<path
+   d="m 0,1713.83 v 59.52 h -297.64 v -195.1"
+   class="st7"
+   id="path1986"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-252.50101"
+   y="1768.55"
+   width="65.632301"
+   height="9.5998497"
+   class="st9"
+   id="rect1988"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-252.5"
+   y="1775.75"
+   class="st10"
+   v:langID="1031"
+   id="text1990"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />org:hasMembership</text>
+		</g>
+		<g
+   id="shape77-460"
+   v:mID="77"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1381.12,-1366.45)">
+			<title
+   id="title1993">Dynamischer Verbinder.14</title>
+			<desc
+   id="desc1995">org:organization</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="0"
+   cy="1658.55"
+   width="63.31"
+   height="17.6036" />
+			<path
+   d="m 0,1713.83 v -73.7 h 30.69"
+   class="st7"
+   id="path1997"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-26.7439"
+   y="1653.75"
+   width="53.487999"
+   height="9.5998497"
+   class="st9"
+   id="rect1999"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-26.74"
+   y="1660.95"
+   class="st10"
+   v:langID="1031"
+   id="text2001"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />org:organization</text>
+		</g>
+		<g
+   id="shape78-468"
+   v:mID="78"
+   v:groupContext="shape"
+   transform="translate(1055.13,-1292.75)">
+			<title
+   id="title2004">Feld.40</title>
+			<desc
+   id="desc2006">org:Post</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow78-469"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect2008"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st25"
+   id="rect2011"
+   style="fill:#b1e4e7;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="35.84"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text2013"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />org:Post</text>
+		</g>
+		<g
+   id="shape79-473"
+   v:mID="79"
+   v:groupContext="shape"
+   transform="translate(944.58,-1190.71)">
+			<title
+   id="title2016">Feld.87</title>
+			<desc
+   id="desc2018">mato:ProjectCoordinator</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow79-474"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect2020"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st3"
+   id="rect2023"
+   style="fill:#e0e6cd;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="5.23"
+   y="1689.78"
+   class="st4"
+   v:langID="1031"
+   id="text2027"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mato:ProjectCoord<tspan
+   x="42.41"
+   dy="1.2em"
+   class="st6"
+   id="tspan2025"
+   style="font-size:13.99991989px">inator</tspan></text>
+		</g>
+		<g
+   id="shape80-479"
+   v:mID="80"
+   v:groupContext="shape"
+   transform="translate(1157.18,-1190.71)">
+			<title
+   id="title2030">Feld.88</title>
+			<desc
+   id="desc2032">mato:ProjectManager</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow80-480"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect2034"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st3"
+   id="rect2037"
+   style="fill:#e0e6cd;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="6.0900002"
+   y="1689.78"
+   class="st4"
+   v:langID="1031"
+   id="text2041"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mato:ProjectMana<tspan
+   x="50.310001"
+   dy="1.2em"
+   class="st6"
+   id="tspan2039"
+   style="font-size:13.99991989px">ger</tspan></text>
+		</g>
+		<g
+   id="shape81-485"
+   v:mID="81"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1004.11,-1230.39)">
+			<title
+   id="title2044">Dynamischer Verbinder.81</title>
+			<desc
+   id="desc2046">subClasssOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="41.1024"
+   cy="1668.47"
+   width="49.09"
+   height="21.204" />
+			<path
+   d="m 0,1713.83 v -45.36 h 110.55 v -10.85"
+   class="st7"
+   id="path2048"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="21.8055"
+   y="1661.87"
+   width="38.593601"
+   height="13.2003"
+   class="st9"
+   id="rect2050"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="21.809999"
+   y="1671.77"
+   class="st10"
+   v:langID="1031"
+   id="text2052"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClasssOf</text>
+		</g>
+		<g
+   id="shape82-493"
+   v:mID="82"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1216.71,-1230.39)">
+			<title
+   id="title2055">Dynamischer Verbinder.82</title>
+			<desc
+   id="desc2057">subClasssOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-36.5264"
+   cy="1668.15"
+   width="48.41"
+   height="17.6036" />
+			<path
+   d="m 0,1713.83 v -45.68 h -102.05 v -10.53"
+   class="st7"
+   id="path2059"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-55.823101"
+   y="1663.35"
+   width="38.593601"
+   height="9.5998497"
+   class="st9"
+   id="rect2061"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-55.82"
+   y="1670.55"
+   class="st10"
+   v:langID="1031"
+   id="text2063"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClasssOf</text>
+		</g>
+		<g
+   id="shape83-501"
+   v:mID="83"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1216.71,-1190.71)">
+			<title
+   id="title2066">Dynamic connector.90</title>
+			<desc
+   id="desc2068">mato:isResponsibleFor</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="382.067"
+   cy="1898.08"
+   width="83.79"
+   height="17.6036" />
+			<path
+   d="m 0,1713.83 v 184.25 h 790.87 v 130.39 h 20.96"
+   class="st7"
+   id="path2070"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="345.08099"
+   y="1893.28"
+   width="73.971802"
+   height="9.5998497"
+   class="st9"
+   id="rect2072"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="345.07999"
+   y="1900.48"
+   class="st10"
+   v:langID="1031"
+   id="text2074"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mato:isResponsibleFor</text>
+		</g>
+		<g
+   id="shape84-509"
+   v:mID="84"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1628.5,-778.394)">
+			<title
+   id="title2077">Dynamischer Verbinder.84</title>
+			<desc
+   id="desc2079">subClassOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="171.022"
+   cy="1672.6"
+   width="45.28"
+   height="17.6036" />
+			<path
+   d="M 0,1713.83 V 1672.6 H 336.04 V 1636 h 4.47"
+   class="st7"
+   id="path2081"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="153.289"
+   y="1667.8"
+   width="35.464699"
+   height="9.5998497"
+   class="st9"
+   id="rect2083"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="153.28999"
+   y="1675"
+   class="st10"
+   v:langID="1031"
+   id="text2085"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClassOf</text>
+		</g>
+		<g
+   id="shape86-517"
+   v:mID="86"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1892.97,-742.961)">
+			<title
+   id="title2088">Dynamischer Verbinder.94</title>
+			<desc
+   id="desc2090">owl:disjointWith</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="42.0997"
+   cy="1706.74"
+   width="63.59"
+   height="17.6036" />
+			<path
+   d="m 6.68,1706.74 h 0.36 71"
+   class="st13"
+   id="path2092"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-start:url(#mrkr4-86);marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="15.2154"
+   y="1701.9399"
+   width="53.7687"
+   height="9.5998497"
+   class="st9"
+   id="rect2094"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="15.22"
+   y="1709.14"
+   class="st10"
+   v:langID="1031"
+   id="text2096"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />owl:disjointWith</text>
+		</g>
+		<g
+   id="shape87-527"
+   v:mID="87"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(890.721,-1528.03)">
+			<title
+   id="title2099">Dynamischer Verbinder.87</title>
+			<desc
+   id="desc2101">skos:broadMatch</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="412.441"
+   cy="1703.2"
+   width="88.1"
+   height="21.204" />
+			<path
+   d="m 0,1713.83 v -10.63 h 423.78 v 146.69 h 64.25 a 2.365,2.365 0 1 1 4.73,0 h 91.65 a 2.3622,2.3622 0 0 1 4.72,0 h 43.7 v 45.35 h 4.47"
+   class="st7"
+   id="path2103"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="373.64001"
+   y="1696.6"
+   width="77.601898"
+   height="13.2003"
+   class="st9"
+   id="rect2105"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="373.64001"
+   y="1706.5"
+   class="st24"
+   v:langID="1031"
+   id="text2107"
+   style="font-size:11.0000639px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />skos:broadMatch</text>
+		</g>
+		<g
+   id="shape88-535"
+   v:mID="88"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1477.49,-1460)">
+			<title
+   id="title2110">Dynamic connector.41</title>
+			<desc
+   id="desc2112">org:hasPost</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-245.197"
+   cy="1713.83"
+   width="48.06"
+   height="17.6036" />
+			<path
+   d="m 0,1713.83 h -160.63 a 2.3622,2.3622 -180 0 0 -4.72,0 h -197.48 v 121.4"
+   class="st7"
+   id="path2114"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-264.31601"
+   y="1709.03"
+   width="38.238201"
+   height="9.5998497"
+   class="st9"
+   id="rect2116"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-264.32001"
+   y="1716.23"
+   class="st10"
+   v:langID="1031"
+   id="text2118"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />org:hasPost</text>
+		</g>
+		<g
+   id="shape89-543"
+   v:mID="89"
+   v:groupContext="shape"
+   transform="translate(1534.19,-1326.77)">
+			<title
+   id="title2121">Feld.47</title>
+			<desc
+   id="desc2123">org:OrganizationalCollaboration</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.98"
+   width="119.06"
+   height="39.685" />
+			<g
+   id="shadow89-544"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st2"
+   id="rect2125"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="119.055"
+   height="39.685001"
+   class="st25"
+   id="rect2128"
+   style="fill:#b1e4e7;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="6.8200002"
+   y="1689.78"
+   class="st4"
+   v:langID="1031"
+   id="text2132"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />org:Organizational<tspan
+   x="21.059999"
+   dy="1.2em"
+   class="st6"
+   id="tspan2130"
+   style="font-size:13.99991989px">Collaboration</tspan></text>
+		</g>
+		<g
+   id="shape90-549"
+   v:mID="90"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1537.02,-1440.15)">
+			<title
+   id="title2135">Dynamischer Verbinder.48</title>
+			<desc
+   id="desc2137">subClasssOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="45.3543"
+   cy="1733.67"
+   width="49.09"
+   height="21.204" />
+			<path
+   d="m 0,1713.83 v 19.84 h 56.69 v 47.7"
+   class="st7"
+   id="path2139"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="26.057501"
+   y="1727.0699"
+   width="38.593601"
+   height="13.2003"
+   class="st9"
+   id="rect2141"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="26.059999"
+   y="1736.97"
+   class="st10"
+   v:langID="1031"
+   id="text2143"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClasssOf</text>
+		</g>
+		<g
+   id="shape91-557"
+   v:mID="91"
+   v:groupContext="shape"
+   transform="translate(1688.67,-1264.41)">
+			<title
+   id="title2146">Feld.91</title>
+			<desc
+   id="desc2148">mato:A01</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="35.4331"
+   cy="1693.98"
+   width="70.87"
+   height="39.685" />
+			<g
+   id="shadow91-558"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.14"
+   width="70.866096"
+   height="39.685001"
+   class="st2"
+   id="rect2150"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.14"
+   width="70.866096"
+   height="39.685001"
+   class="st3"
+   id="rect2153"
+   style="fill:#e0e6cd;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="7.4299998"
+   y="1698.1801"
+   class="st4"
+   v:langID="1031"
+   id="text2155"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mato:A01</text>
+		</g>
+		<g
+   id="shape92-562"
+   v:mID="92"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1724.11,-1304.09)">
+			<title
+   id="title2158">Dynamischer Verbinder.97</title>
+			<desc
+   id="desc2160">rdfs:type</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-14.1732"
+   cy="1671.31"
+   width="40"
+   height="17.6036" />
+			<path
+   d="m 0,1713.83 v -42.52 h -64.71"
+   class="st7"
+   id="path2162"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-28.766899"
+   y="1666.51"
+   width="29.187401"
+   height="9.5998497"
+   class="st9"
+   id="rect2164"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-28.77"
+   y="1673.71"
+   class="st10"
+   v:langID="1031"
+   id="text2166"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />rdfs:type</text>
+		</g>
+		<g
+   id="shape93-570"
+   v:mID="93"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1678.75,-1185.04)">
+			<title
+   id="title2169">Dynamischer Verbinder.98</title>
+			<desc
+   id="desc2171">org:holds</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-316.063"
+   cy="1713.83"
+   width="40.32"
+   height="17.6036" />
+			<path
+   d="m 0,1713.83 h -295.28 a 2.3622,2.3622 -180 1 0 -4.72,0 h -84.9 v -127.56 h -113.51"
+   class="st7"
+   id="path2173"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-331.315"
+   y="1709.03"
+   width="30.503799"
+   height="9.5998497"
+   class="st9"
+   id="rect2175"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-331.31"
+   y="1716.23"
+   class="st10"
+   v:langID="1031"
+   id="text2177"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />org:holds</text>
+		</g>
+		<g
+   id="shape94-578"
+   v:mID="94"
+   v:groupContext="shape"
+   transform="translate(1157.18,-1394.8)">
+			<title
+   id="title2180">Tabelle.94</title>
+			<desc
+   id="desc2182">time:Interval</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="42.5197"
+   cy="1699.18"
+   width="85.04"
+   height="29.2874" />
+			<g
+   id="shadow94-579"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<ellipse
+   cx="42.519699"
+   cy="1699.1801"
+   rx="42.519699"
+   ry="14.6437"
+   class="st2"
+   id="ellipse2184"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<ellipse
+   cx="42.519699"
+   cy="1699.1801"
+   rx="42.519699"
+   ry="14.6437"
+   class="st16"
+   id="ellipse2187"
+   style="fill:#e7e3ee;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="5.79"
+   y="1703.38"
+   class="st4"
+   v:langID="1031"
+   id="text2189"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />time:Interval</text>
+		</g>
+		<g
+   id="shape95-583"
+   v:mID="95"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(1321.59,-1346.61)">
+			<title
+   id="title2192">Dynamischer Verbinder.100</title>
+			<desc
+   id="desc2194">org:memberDuring</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-85.0394"
+   cy="1713.83"
+   width="104.27"
+   height="22.4037" />
+			<path
+   d="M 0,1713.83 H -121.89 V 1671.8"
+   class="st7"
+   id="path2196"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-131.815"
+   y="1706.63"
+   width="93.551598"
+   height="14.4001"
+   class="st9"
+   id="rect2198"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-131.82001"
+   y="1717.4301"
+   class="st12"
+   v:langID="1031"
+   id="text2200"
+   style="font-size:12.00012016px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />org:memberDuring</text>
+		</g>
+		<g
+   id="shape96-591"
+   v:mID="96"
+   v:groupContext="shape"
+   transform="translate(1012.61,-620.942)">
+			<title
+   id="title2203">Box.43</title>
+			<desc
+   id="desc2205">FOAF</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1693.95"
+   width="119.06"
+   height="39.7587" />
+			<g
+   id="shadow96-592"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1674.0699"
+   width="119.055"
+   height="39.758701"
+   class="st2"
+   id="rect2207"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1674.0699"
+   width="119.055"
+   height="39.758701"
+   class="st26"
+   id="rect2210"
+   style="fill:#b1e7c7;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="44.41"
+   y="1698.15"
+   class="st4"
+   v:langID="1031"
+   id="text2212"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />FOAF</text>
+		</g>
+		<g
+   id="shape38-596"
+   v:mID="38"
+   v:groupContext="shape"
+   transform="translate(1773.91,-721.701)">
+			<title
+   id="title2215">Feld.38</title>
+			<desc
+   id="desc2217">mato:Handling and transportation equipment</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1685.48"
+   width="119.06"
+   height="56.6929" />
+			<g
+   id="shadow38-597"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st2"
+   id="rect2219"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st3"
+   id="rect2222"
+   style="fill:#e0e6cd;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="5.1300001"
+   y="1672.88"
+   class="st4"
+   v:langID="1031"
+   id="text2228"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mato:Handling and <tspan
+   x="18.15"
+   dy="1.2em"
+   class="st6"
+   id="tspan2224"
+   style="font-size:13.99991989px">transportation </tspan><tspan
+   x="28.309999"
+   dy="1.2em"
+   class="st6"
+   id="tspan2226"
+   style="font-size:13.99991989px">equipment</tspan></text>
+		</g>
+		<g
+   id="shape97-603"
+   v:mID="97"
+   v:groupContext="shape"
+   transform="translate(1977.17,-721.701)">
+			<title
+   id="title2231">Box.38</title>
+			<desc
+   id="desc2233">mato:Inspection equipment</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1685.48"
+   width="119.06"
+   height="56.6929" />
+			<g
+   id="shadow97-604"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st2"
+   id="rect2235"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st3"
+   id="rect2238"
+   style="fill:#e0e6cd;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="13.05"
+   y="1681.28"
+   class="st4"
+   v:langID="1031"
+   id="text2242"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mato:Inspection <tspan
+   x="28.309999"
+   dy="1.2em"
+   class="st6"
+   id="tspan2240"
+   style="font-size:13.99991989px">equipment</tspan></text>
+		</g>
+		<g
+   id="shape98-609"
+   v:mID="98"
+   v:groupContext="shape"
+   transform="translate(2181.26,-721.701)">
+			<title
+   id="title2245">Box.98</title>
+			<desc
+   id="desc2247">mato:Production equipment</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1685.48"
+   width="119.06"
+   height="56.6929" />
+			<g
+   id="shadow98-610"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st2"
+   id="rect2249"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st3"
+   id="rect2252"
+   style="fill:#e0e6cd;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="11.29"
+   y="1681.28"
+   class="st4"
+   v:langID="1031"
+   id="text2256"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />mato:Production <tspan
+   x="28.309999"
+   dy="1.2em"
+   class="st6"
+   id="tspan2254"
+   style="font-size:13.99991989px">equipment</tspan></text>
+		</g>
+		<g
+   id="shape99-615"
+   v:mID="99"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(2029.61,-432.567)">
+			<title
+   id="title2259">Dynamischer Verbinder.99</title>
+			<desc
+   id="desc2261">skos:broadMatch</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="7.08661"
+   cy="1569.26"
+   width="66.25"
+   height="17.6036" />
+			<path
+   d="M 7.09,1713.83 V 1430.85"
+   class="st7"
+   id="path2263"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-21.131901"
+   y="1564.46"
+   width="56.437302"
+   height="9.5998497"
+   class="st9"
+   id="rect2265"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-21.129999"
+   y="1571.66"
+   class="st10"
+   v:langID="1031"
+   id="text2267"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />skos:broadMatch</text>
+		</g>
+		<g
+   id="shape100-623"
+   v:mID="100"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(2230.87,-432.567)">
+			<title
+   id="title2270">Dynamischer Verbinder.100</title>
+			<desc
+   id="desc2272">skos:broadMatch</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="7.08661"
+   cy="1633.04"
+   width="66.25"
+   height="17.6036" />
+			<path
+   d="M 7.09,1713.83 V 1558.41"
+   class="st7"
+   id="path2274"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-21.131901"
+   y="1628.24"
+   width="56.437302"
+   height="9.5998497"
+   class="st9"
+   id="rect2276"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-21.129999"
+   y="1635.4399"
+   class="st10"
+   v:langID="1031"
+   id="text2278"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />skos:broadMatch</text>
+		</g>
+		<g
+   id="shape16-631"
+   v:mID="16"
+   v:groupContext="shape"
+   transform="translate(2178.43,-594.142)">
+			<title
+   id="title2281">Feld.16</title>
+			<desc
+   id="desc2283">msdl:production machine</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(14):26" />
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="59.5276"
+   cy="1685.48"
+   width="119.06"
+   height="56.6929" />
+			<g
+   id="shadow16-632"
+   v:groupContext="shadow"
+   v:shadowOffsetX="1.44"
+   v:shadowOffsetY="-1.44"
+   v:shadowType="1"
+   transform="translate(1.44,1.44)"
+   class="st1"
+   style="visibility:visible">
+				<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st2"
+   id="rect2285"
+   style="fill:#3f3f3f;fill-opacity:0.5;stroke:#3f3f3f;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5" />
+			</g>
+			<rect
+   x="0"
+   y="1657.13"
+   width="119.055"
+   height="56.692902"
+   class="st5"
+   id="rect2288"
+   style="fill:#fae9dc;stroke:#404040;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+			<text
+   x="12.6"
+   y="1681.28"
+   class="st4"
+   v:langID="1031"
+   id="text2292"
+   style="font-size:13.99991989px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />msdl:production  <tspan
+   x="35.18"
+   dy="1.2em"
+   class="st6"
+   id="tspan2290"
+   style="font-size:13.99991989px">machine</tspan></text>
+		</g>
+		<g
+   id="shape17-637"
+   v:mID="17"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(2240.79,-650.835)">
+			<title
+   id="title2295">Dynamischer Verbinder.17</title>
+			<desc
+   id="desc2297">subClasssOf</desc>
+			<v:userDefs>
+				<v:ud
+   v:nameU="msvThemeColors"
+   v:val="VT0(36):26" />
+				<v:ud
+   v:nameU="msvThemeEffects"
+   v:val="VT0(16):26" />
+			</v:userDefs>
+			<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+			<v:textRect
+   cx="-2.83465"
+   cy="1674.14"
+   width="48.41"
+   height="17.6036" />
+			<path
+   d="m -2.83,1713.83 v -70.87 h -2.35"
+   class="st7"
+   id="path2299"
+   inkscape:connector-curvature="0"
+   style="stroke:#404040;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#mrkr5-20)" />
+			<rect
+   v:rectContext="textBkgnd"
+   x="-22.1313"
+   y="1669.34"
+   width="38.593601"
+   height="9.5998497"
+   class="st9"
+   id="rect2301"
+   style="fill:#ffffff;stroke:none;stroke-width:7.19999981;stroke-linecap:butt" />
+			<text
+   x="-22.129999"
+   y="1676.54"
+   class="st10"
+   v:langID="1031"
+   id="text2303"
+   style="font-size:7.99996805px;font-family:Calibri;fill:#000000"><v:paragraph
+   v:horizAlign="1" /><v:tabList />subClasssOf</text>
+		</g>
+	</g>
+</svg>
