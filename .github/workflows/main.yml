@@ -35,7 +35,10 @@ jobs:
           sudo mv ./robot.jar /usr/local/bin
           echo "ROBOT version:"
           robot -V
-      - name: run ROBOT report
+      - name: test for ERRORs with ROBOT report
+        run: |
+          produce report
+      - name: test for ERRORs with ROBOT report
         run: |
           robot report --input mato.ttl --output report.txt
       - name: report artifact
