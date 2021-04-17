@@ -1,5 +1,6 @@
 @prefix : <https://github.com/tibonto/mato#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix iao: <http://purl.obolibrary.org/obo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -60,14 +61,17 @@ skos:example rdf:type owl:AnnotationProperty .
 
 ###  http://www.owl-ontologies.com/mason.owl#contains
 <http://www.owl-ontologies.com/mason.owl#contains> rdf:type owl:ObjectProperty ;
-                                                   owl:inverseOf <http://www.owl-ontologies.com/mason.owl#isLocatedIn> .
+                                                   owl:inverseOf <http://www.owl-ontologies.com/mason.owl#isLocatedIn> ;
+                                                   owl:deprecated "true"^^xsd:boolean .
 
 
 ###  http://www.owl-ontologies.com/mason.owl#isLocatedIn
 <http://www.owl-ontologies.com/mason.owl#isLocatedIn> rdf:type owl:ObjectProperty ;
+                                                      owl:inverseOf mato:contains ;
                                                       rdfs:domain <http://www.owl-ontologies.com/mason.owl#Material_resource> ;
                                                       rdfs:range <http://www.owl-ontologies.com/mason.owl#Geographic_resource> ;
-                                                      rdfs:label "is located in"^^xsd:string .
+                                                      rdfs:label "is located in"^^xsd:string ;
+                                                      owl:deprecated "true"^^xsd:boolean .
 
 
 ###  http://www.owl-ontologies.com/mason.owl#isUsedBy
@@ -77,7 +81,8 @@ skos:example rdf:type owl:AnnotationProperty .
                                                    rdfs:range <http://www.owl-ontologies.com/mason.owl#Machine-tool> ;
                                                    rdfs:comment "Machines qui utilisent cet outil"@fr ,
                                                                 "Machinetools which use a given tool"@en ;
-                                                   rdfs:label "is used by"^^xsd:string .
+                                                   rdfs:label "is used by"^^xsd:string ;
+                                                   owl:deprecated "true"^^xsd:boolean .
 
 
 ###  http://www.owl-ontologies.com/mason.owl#usesTool
@@ -85,7 +90,42 @@ skos:example rdf:type owl:AnnotationProperty .
                                                    rdfs:domain <http://www.owl-ontologies.com/mason.owl#Machine-tool> ;
                                                    rdfs:range <http://www.owl-ontologies.com/mason.owl#Tool> ;
                                                    rdfs:comment "Lie une machine-outil aux outils qu'elle utilise."@fr ;
-                                                   rdfs:label "uses tool"^^xsd:string .
+                                                   rdfs:label "uses tool"^^xsd:string ;
+                                                   owl:deprecated "true"^^xsd:boolean .
+
+
+###  https://github.com/tibonto/mato#contains
+mato:contains rdf:type owl:ObjectProperty ;
+              rdfs:label "contains"^^xsd:string ;
+              skos:closeMatch <http://www.owl-ontologies.com/mason.owl#contains> .
+
+
+###  https://github.com/tibonto/mato#isLocatedIn
+mato:isLocatedIn rdf:type owl:ObjectProperty ;
+                 rdfs:domain mato:Material_resource ;
+                 rdfs:range mato:Geographic_resource ;
+                 rdfs:comment "Review: Range, Domain"@en ;
+                 rdfs:label "is located in"^^xsd:string ;
+                 skos:closeMatch <http://www.owl-ontologies.com/mason.owl#isLocatedIn> .
+
+
+###  https://github.com/tibonto/mato#isUsedBy
+mato:isUsedBy rdf:type owl:ObjectProperty ;
+              owl:inverseOf mato:usesTool ;
+              rdfs:domain mato:Tool ;
+              rdfs:range mato:Machine-tool ;
+              rdfs:comment "Review: Range, Domain, inverseOf"@en ;
+              rdfs:label "is used by"^^xsd:string ;
+              skos:closeMatch <http://www.owl-ontologies.com/mason.owl#isUsedBy> .
+
+
+###  https://github.com/tibonto/mato#usesTool
+mato:usesTool rdf:type owl:ObjectProperty ;
+              rdfs:domain mato:Machine-tool ;
+              rdfs:range mato:Tool ;
+              rdfs:comment "Review: Range, Domain"@en ;
+              rdfs:label "uses tool"^^xsd:string ;
+              skos:closeMatch <http://www.owl-ontologies.com/mason.owl#usesTool> .
 
 
 #################################################################
@@ -160,6 +200,22 @@ skos:example rdf:type owl:AnnotationProperty .
 ###  https://github.com/tibonto/matoTurning_Machine
 <https://github.com/tibonto/matoTurning_Machine> rdf:type owl:Class ;
                                                  rdfs:subClassOf <https://github.com/tibonto/matoMachine-tool> .
+
+
+###  https://github.com/tibonto/mato#Geographic_resource
+mato:Geographic_resource rdf:type owl:Class .
+
+
+###  https://github.com/tibonto/mato#Machine-tool
+mato:Machine-tool rdf:type owl:Class .
+
+
+###  https://github.com/tibonto/mato#Material_resource
+mato:Material_resource rdf:type owl:Class .
+
+
+###  https://github.com/tibonto/mato#Tool
+mato:Tool rdf:type owl:Class .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
