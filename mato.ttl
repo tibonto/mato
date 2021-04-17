@@ -133,89 +133,78 @@ mato:usesTool rdf:type owl:ObjectProperty ;
 #################################################################
 
 ###  http://www.owl-ontologies.com/mason.owl#Geographic_resource
-<http://www.owl-ontologies.com/mason.owl#Geographic_resource> rdf:type owl:Class .
+<http://www.owl-ontologies.com/mason.owl#Geographic_resource> rdf:type owl:Class ;
+                                                              owl:deprecated "true"^^xsd:boolean .
 
 
 ###  http://www.owl-ontologies.com/mason.owl#Machine-tool
-<http://www.owl-ontologies.com/mason.owl#Machine-tool> rdf:type owl:Class .
+<http://www.owl-ontologies.com/mason.owl#Machine-tool> rdf:type owl:Class ;
+                                                       owl:deprecated "true"^^xsd:boolean .
 
 
 ###  http://www.owl-ontologies.com/mason.owl#Machine_resource
 <http://www.owl-ontologies.com/mason.owl#Machine_resource> rdf:type owl:Class ;
-                                                           rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Material_resource> .
+                                                           rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Material_resource> ;
+                                                           owl:deprecated "true"^^xsd:boolean .
 
 
 ###  http://www.owl-ontologies.com/mason.owl#Material_resource
-<http://www.owl-ontologies.com/mason.owl#Material_resource> rdf:type owl:Class .
+<http://www.owl-ontologies.com/mason.owl#Material_resource> rdf:type owl:Class ;
+                                                            owl:deprecated "true"^^xsd:boolean .
 
 
 ###  http://www.owl-ontologies.com/mason.owl#Tool
 <http://www.owl-ontologies.com/mason.owl#Tool> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Material_resource> .
-
-
-###  https://github.com/tibonto/matoGeographic_resource
-<https://github.com/tibonto/matoGeographic_resource> rdf:type owl:Class ;
-                                                     rdfs:label <https://github.com/tibonto/mato> ;
-                                                     skos:closeMatch <http://www.owl-ontologies.com/mason.owl#Geographic_resource> .
-
-
-###  https://github.com/tibonto/matoIndexeble_Insert
-<https://github.com/tibonto/matoIndexeble_Insert> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <https://github.com/tibonto/matoTool> ;
-                                                  rdfs:label "Indexible Insert"@en .
-
-
-###  https://github.com/tibonto/matoMachine-tool
-<https://github.com/tibonto/matoMachine-tool> rdf:type owl:Class ;
-                                              rdfs:label "Machine-tool"@en ;
-                                              skos:closeMatch <http://www.owl-ontologies.com/mason.owl#Machine-tool> .
-
-
-###  https://github.com/tibonto/matoMaterial_resource
-<https://github.com/tibonto/matoMaterial_resource> rdf:type owl:Class ;
-                                                   rdfs:label "Material resource"@en ;
-                                                   skos:closeMatch <http://www.owl-ontologies.com/mason.owl#Material_resource> .
-
-
-###  https://github.com/tibonto/matoProcessing_Head
-<https://github.com/tibonto/matoProcessing_Head> rdf:type owl:Class ;
-                                                 rdfs:subClassOf <https://github.com/tibonto/matoTool> ;
-                                                 rdfs:label "Processing Head"@en .
-
-
-###  https://github.com/tibonto/matoRolling_Ball
-<https://github.com/tibonto/matoRolling_Ball> rdf:type owl:Class ;
-                                              rdfs:subClassOf <https://github.com/tibonto/matoTool> ;
-                                              rdfs:label "Rolling Ball"@en .
-
-
-###  https://github.com/tibonto/matoTool
-<https://github.com/tibonto/matoTool> rdf:type owl:Class ;
-                                      rdfs:subClassOf <https://github.com/tibonto/matoMaterial_resource> ;
-                                      rdfs:label "Tool"@en ;
-                                      skos:closeMatch <http://www.owl-ontologies.com/mason.owl#Tool> .
-
-
-###  https://github.com/tibonto/matoTurning_Machine
-<https://github.com/tibonto/matoTurning_Machine> rdf:type owl:Class ;
-                                                 rdfs:subClassOf <https://github.com/tibonto/matoMachine-tool> .
+                                               rdfs:subClassOf <http://www.owl-ontologies.com/mason.owl#Material_resource> ;
+                                               owl:deprecated "true"^^xsd:boolean .
 
 
 ###  https://github.com/tibonto/mato#Geographic_resource
-mato:Geographic_resource rdf:type owl:Class .
+mato:Geographic_resource rdf:type owl:Class ;
+                         rdfs:label <https://github.com/tibonto/mato> ;
+                         skos:closeMatch <http://www.owl-ontologies.com/mason.owl#Geographic_resource> .
+
+
+###  https://github.com/tibonto/mato#Indexeble_Insert
+mato:Indexeble_Insert rdf:type owl:Class ;
+                      rdfs:subClassOf mato:Tool ;
+                      rdfs:label "Indexible Insert"@en .
 
 
 ###  https://github.com/tibonto/mato#Machine-tool
-mato:Machine-tool rdf:type owl:Class .
+mato:Machine-tool rdf:type owl:Class ;
+                  rdfs:label "Machine-tool"@en ;
+                  skos:closeMatch <http://www.owl-ontologies.com/mason.owl#Machine-tool> .
 
 
 ###  https://github.com/tibonto/mato#Material_resource
-mato:Material_resource rdf:type owl:Class .
+mato:Material_resource rdf:type owl:Class ;
+                       rdfs:label "Material resource"@en ;
+                       skos:closeMatch <http://www.owl-ontologies.com/mason.owl#Material_resource> .
+
+
+###  https://github.com/tibonto/mato#Processing_Head
+mato:Processing_Head rdf:type owl:Class ;
+                     rdfs:subClassOf mato:Tool ;
+                     rdfs:label "Processing Head"@en .
+
+
+###  https://github.com/tibonto/mato#Rolling_Ball
+mato:Rolling_Ball rdf:type owl:Class ;
+                  rdfs:subClassOf mato:Tool ;
+                  rdfs:label "Rolling Ball"@en .
 
 
 ###  https://github.com/tibonto/mato#Tool
-mato:Tool rdf:type owl:Class .
+mato:Tool rdf:type owl:Class ;
+          rdfs:subClassOf mato:Material_resource ;
+          rdfs:label "Tool"@en ;
+          skos:closeMatch <http://www.owl-ontologies.com/mason.owl#Tool> .
+
+
+###  https://github.com/tibonto/mato#Turning_Machine
+mato:Turning_Machine rdf:type owl:Class ;
+                     rdfs:subClassOf mato:Machine-tool .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
