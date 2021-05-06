@@ -161,7 +161,8 @@ ssn:implements rdf:type owl:ObjectProperty ;
 
 
 ###  https://github.com/tibonto/mato#isLocatedIn
-mato:isLocatedIn rdf:type owl:ObjectProperty .
+mato:isLocatedIn rdf:type owl:ObjectProperty ;
+                 skos:closeMatch <http://www.owl-ontologies.com/mason.owl#isLocatedIn> .
 
 
 #################################################################
@@ -258,19 +259,31 @@ mato:Inspection_equipment rdf:type owl:Class ;
                           rdfs:subClassOf mato:Equipment .
 
 
+###  https://github.com/tibonto/mato#Machine_tool
+mato:Machine_tool rdf:type owl:Class ;
+                  rdfs:subClassOf mato:Production_tool .
+
+
 ###  https://github.com/tibonto/mato#Production_equipment
 mato:Production_equipment rdf:type owl:Class ;
                           rdfs:subClassOf mato:Equipment .
 
 
+###  https://github.com/tibonto/mato#Production_machine
+mato:Production_machine rdf:type owl:Class ;
+                        rdfs:subClassOf mato:Production_equipment ;
+                        skos:closeMatch <http://infoneer.txstate.edu/ontology/MSDL_0000033> .
+
+
 ###  https://github.com/tibonto/mato#Production_tool
 mato:Production_tool rdf:type owl:Class ;
-                     rdfs:subClassOf mato:Production_equipment .
+                     rdfs:subClassOf mato:Production_equipment ;
+                     skos:closeMatch <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
 
 
-###  https://github.com/tibonto/mato#Prouction_machine
-mato:Prouction_machine rdf:type owl:Class ;
-                       rdfs:subClassOf mato:Production_equipment .
+###  https://github.com/tibonto/mato#Software_tool
+mato:Software_tool rdf:type owl:Class ;
+                   rdfs:subClassOf mato:Production_tool .
 
 
 ###  https://github.com/tibonto/mato#Test_equipment
