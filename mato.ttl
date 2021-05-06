@@ -1,25 +1,24 @@
-@prefix : <http://www.semanticweb.org/Machine_and_Tool_Ontology> .
+@prefix : <https://github.com/tibonto/mato#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix iao: <http://purl.obolibrary.org/obo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix mato: <https://github.com/tibonto/mato#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix iao: <http://purl.obolibrary.org/obo/> .
-@base <http://www.semanticweb.org/Machine_and_Tool_Ontology> .
+@base <https://github.com/tibonto/mato> .
 
-<http://www.semanticweb.org/Machine_and_Tool_Ontology> rdf:type owl:Ontology ;
-                                                        owl:versionIRI <http://www.semanticweb.org/Machine_and_Tool_Ontology/0.0.1> ;
-                                                        owl:versionInfo "0.0.1" ;
-                                                        dc:title "Machine and Tool Ontology"@en ;
-                                                        dc:creator "Tatyana Sheveleva" ;
-                                                        dc:contributor "André Castro" ;
-                                                        dc:description "Machine and Tool Ontology is..."@en ;
-                                                        dcterms:license <https://www.gnu.org/licenses/gpl-3.0> .
+<https://github.com/tibonto/mato> rdf:type owl:Ontology ;
+                                   owl:versionIRI <https://github.com/tibonto/mato/releases/tag/v0.0.1> ;
+                                   dc:contributor "André Castro" ;
+                                   dc:creator "Tatyana Sheveleva" ;
+                                   dc:description "Machine and Tool Ontology is..."@en ;
+                                   dc:title "Machine and Tool Ontology"@en ;
+                                   dcterms:license <https://www.gnu.org/licenses/gpl-3.0> ;
+                                   owl:versionInfo "0.0.1" .
 
 #################################################################
 #    Annotation properties
@@ -164,20 +163,20 @@ skos:note rdf:type owl:AnnotationProperty .
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/Machine_and_Tool_OntologyhasDescription
-:hasDescription rdf:type owl:DatatypeProperty .
+###  https://github.com/tibonto/mato#hasDescription
+mato:hasDescription rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_OntologyhasManufacturer
-:hasManufacturer rdf:type owl:DatatypeProperty .
+###  https://github.com/tibonto/mato#hasManufacturer
+mato:hasManufacturer rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_OntologyhasModel
-:hasModel rdf:type owl:DatatypeProperty .
+###  https://github.com/tibonto/mato#hasModel
+mato:hasModel rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_OntologyisResponsibleFor
-:isResponsibleFor rdf:type owl:DatatypeProperty .
+###  https://github.com/tibonto/mato#isResponsibleFor
+mato:isResponsibleFor rdf:type owl:DatatypeProperty .
 
 
 #################################################################
@@ -186,49 +185,14 @@ skos:note rdf:type owl:AnnotationProperty .
 
 ###  http://infoneer.txstate.edu/ontology/MSDL_0000033
 <http://infoneer.txstate.edu/ontology/MSDL_0000033> rdf:type owl:Class ;
-                                                    rdfs:subClassOf :Production_equipment ;
+                                                    rdfs:subClassOf mato:Production_equipment ;
                                                     rdfs:label "production machine" .
 
 
 ###  http://infoneer.txstate.edu/ontology/MSDL_0000036
 <http://infoneer.txstate.edu/ontology/MSDL_0000036> rdf:type owl:Class ;
-                                                    rdfs:subClassOf :Production_equipment ;
+                                                    rdfs:subClassOf mato:Production_equipment ;
                                                     rdfs:label "production tool" .
-
-
-###  http://www.semanticweb.org/Machine_and_Tool_OntologyEquipment
-:Equipment rdf:type owl:Class ;
-           rdfs:subClassOf <http://www.w3.org/ns/ssn/System> .
-
-
-###  http://www.semanticweb.org/Machine_and_Tool_OntologyHandling_and_transportation_equipment
-:Handling_and_transportation_equipment rdf:type owl:Class ;
-                                       rdfs:subClassOf :Equipment .
-
-
-###  http://www.semanticweb.org/Machine_and_Tool_OntologyInspection_equipment
-:Inspection_equipment rdf:type owl:Class ;
-                      rdfs:subClassOf :Equipment .
-
-
-###  http://www.semanticweb.org/Machine_and_Tool_OntologyMachine_tool
-:Machine_tool rdf:type owl:Class ;
-              rdfs:subClassOf <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
-
-
-###  http://www.semanticweb.org/Machine_and_Tool_OntologyProduction_equipment
-:Production_equipment rdf:type owl:Class ;
-                      rdfs:subClassOf :Equipment .
-
-
-###  http://www.semanticweb.org/Machine_and_Tool_OntologySoftware_tool
-:Software_tool rdf:type owl:Class ;
-               rdfs:subClassOf <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
-
-
-###  http://www.semanticweb.org/Machine_and_Tool_OntologyTest_equipment
-:Test_equipment rdf:type owl:Class ;
-                rdfs:subClassOf :Equipment .
 
 
 ###  http://www.w3.org/ns/prov#Activity
@@ -284,6 +248,41 @@ skos:note rdf:type owl:AnnotationProperty .
                                   rdfs:isDefinedBy <http://www.w3.org/ns/ssn/> ;
                                   rdfs:label "System"@en ;
                                   skos:definition "System is a unit of abstraction for pieces of infrastructure that implement Procedures. A System may have components, its subsystems, which are other systems."@en .
+
+
+###  https://github.com/tibonto/mato#Equipment
+mato:Equipment rdf:type owl:Class ;
+               rdfs:subClassOf <http://www.w3.org/ns/ssn/System> .
+
+
+###  https://github.com/tibonto/mato#Handling_and_transportation_equipment
+mato:Handling_and_transportation_equipment rdf:type owl:Class ;
+                                           rdfs:subClassOf mato:Equipment .
+
+
+###  https://github.com/tibonto/mato#Inspection_equipment
+mato:Inspection_equipment rdf:type owl:Class ;
+                          rdfs:subClassOf mato:Equipment .
+
+
+###  https://github.com/tibonto/mato#Machine_tool
+mato:Machine_tool rdf:type owl:Class ;
+                  rdfs:subClassOf <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
+
+
+###  https://github.com/tibonto/mato#Production_equipment
+mato:Production_equipment rdf:type owl:Class ;
+                          rdfs:subClassOf mato:Equipment .
+
+
+###  https://github.com/tibonto/mato#Software_tool
+mato:Software_tool rdf:type owl:Class ;
+                   rdfs:subClassOf <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
+
+
+###  https://github.com/tibonto/mato#Test_equipment
+mato:Test_equipment rdf:type owl:Class ;
+                    rdfs:subClassOf mato:Equipment .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
