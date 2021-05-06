@@ -1,12 +1,15 @@
 @prefix : <https://github.com/tibonto/mato#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix iao: <http://purl.obolibrary.org/obo/> .
+@prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ssn: <http://www.w3.org/ns/ssn/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix mato: <https://github.com/tibonto/mato#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
@@ -14,7 +17,6 @@
 @base <https://github.com/tibonto/mato> .
 
 <https://github.com/tibonto/mato> rdf:type owl:Ontology ;
-                                   owl:versionIRI <https://github.com/tibonto/mato/releases/tag/v0.0.1> ;
                                    dc:contributor "André Castro" ;
                                    dc:creator "Tatyana Sheveleva" ;
                                    dc:description "Machine and Tool Ontology is..."@en ;
@@ -46,6 +48,14 @@ dc:title rdf:type owl:AnnotationProperty .
 dcterms:license rdf:type owl:AnnotationProperty .
 
 
+###  http://www.w3.org/2003/06/sw-vocab-status/ns#term_status
+ns:term_status rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#closeMatch
+skos:closeMatch rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.w3.org/2004/02/skos/core#definition
 skos:definition rdf:type owl:AnnotationProperty .
 
@@ -59,84 +69,92 @@ skos:note rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/ns/prov#category
-<http://www.w3.org/ns/prov#category> rdf:type owl:AnnotationProperty .
+prov:category rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/ns/prov#component
-<http://www.w3.org/ns/prov#component> rdf:type owl:AnnotationProperty .
+prov:component rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/prov#constraints
+prov:constraints rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/ns/prov#definition
-<http://www.w3.org/ns/prov#definition> rdf:type owl:AnnotationProperty .
+prov:definition rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/ns/prov#dm
-<http://www.w3.org/ns/prov#dm> rdf:type owl:AnnotationProperty .
+prov:dm rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/ns/prov#editorialNote
-<http://www.w3.org/ns/prov#editorialNote> rdf:type owl:AnnotationProperty .
+prov:editorialNote rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/ns/prov#inverse
-<http://www.w3.org/ns/prov#inverse> rdf:type owl:AnnotationProperty .
+prov:inverse rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/ns/prov#n
-<http://www.w3.org/ns/prov#n> rdf:type owl:AnnotationProperty .
+prov:n rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/ns/prov#sharesDefinitionWith
-<http://www.w3.org/ns/prov#sharesDefinitionWith> rdf:type owl:AnnotationProperty .
+prov:sharesDefinitionWith rdf:type owl:AnnotationProperty .
 
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://www.owl-ontologies.com/mason.owl#isLocatedIn
-<http://www.owl-ontologies.com/mason.owl#isLocatedIn> rdf:type owl:ObjectProperty ;
-                                                      rdfs:label "is located in"^^xsd:string .
-
-
 ###  http://www.w3.org/ns/org#heldBy
-<http://www.w3.org/ns/org#heldBy> rdf:type owl:ObjectProperty ;
-                                  owl:inverseOf <http://www.w3.org/ns/org#holds> .
+org:heldBy rdf:type owl:ObjectProperty ;
+           rdfs:domain org:Post ;
+           rdfs:comment "Agente que ocupa un puesto."@es ,
+                        "Indica un Agent che ricopre un Post."@it ,
+                        "Indicate un Agent qui occupe le Poste."@fr ,
+                        "Indicates an Agent which holds a Post."@en ,
+                        "ポストを保持するエージェントを示します。"@ja ;
+           rdfs:isDefinedBy <http://www.w3.org/ns/org> ;
+           rdfs:label "held by"@en ,
+                      "occupé par"@fr ,
+                      "ricoperto da"@it .
 
 
 ###  http://www.w3.org/ns/org#holds
-<http://www.w3.org/ns/org#holds> rdf:type owl:ObjectProperty ;
-                                 rdfs:comment "Indica un Impiego ricoperto da un Agent."@it ,
-                                              "Indicate un Poste occupé par un Agent."@fr ,
-                                              "Indicates a Post held by some Agent."@en ,
-                                              "Puesto ocupado por algún agente."@es ,
-                                              "あるエージェントによって保持されているポストを示します。"@ja ;
-                                 rdfs:isDefinedBy <http://www.w3.org/ns/org> ;
-                                 rdfs:label "holds"@en ,
-                                            "occupe"@fr ,
-                                            "ocupa"@es ,
-                                            "ricopre"@it .
+org:holds rdf:type owl:ObjectProperty ;
+          rdfs:comment "Indica un Impiego ricoperto da un Agent."@it ,
+                       "Indicate un Poste occupé par un Agent."@fr ,
+                       "Indicates a Post held by some Agent."@en ,
+                       "Puesto ocupado por algún agente."@es ,
+                       "あるエージェントによって保持されているポストを示します。"@ja ;
+          rdfs:isDefinedBy <http://www.w3.org/ns/org> ;
+          rdfs:label "holds"@en ,
+                     "occupe"@fr ,
+                     "ocupa"@es ,
+                     "ricopre"@it .
 
 
 ###  http://www.w3.org/ns/prov#atLocation
-<http://www.w3.org/ns/prov#atLocation> rdf:type owl:ObjectProperty ;
-                                       rdfs:domain [ rdf:type owl:Class ;
-                                                     owl:unionOf ( <http://www.w3.org/ns/prov#Activity>
-                                                                   <http://www.w3.org/ns/prov#Agent>
-                                                                   <http://www.w3.org/ns/prov#Entity>
-                                                                   <http://www.w3.org/ns/prov#InstantaneousEvent>
-                                                                 )
-                                                   ] ;
-                                       rdfs:range <http://www.w3.org/ns/prov#Location> ;
-                                       rdfs:comment "The Location of any resource."@en ,
-                                                    "This property has multiple RDFS domains to suit multiple OWL Profiles. See <a href=\"#owl-profile\">PROV-O OWL Profile</a>." ;
-                                       rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
-                                       rdfs:label "atLocation" ;
-                                       <http://www.w3.org/ns/prov#category> "expanded" ;
-                                       <http://www.w3.org/ns/prov#editorialNote> "The naming of prov:atLocation parallels prov:atTime, and is not named prov:hadLocation to avoid conflicting with the convention that prov:had* properties are used on prov:Influence classes."@en ,
-                                                                                 "This property is not functional because the many values could be at a variety of granularies (In this building, in this room, in that chair)."@en ;
-                                       <http://www.w3.org/ns/prov#inverse> "locationOf" ;
-                                       <http://www.w3.org/ns/prov#sharesDefinitionWith> <http://www.w3.org/ns/prov#Location> .
+prov:atLocation rdf:type owl:ObjectProperty ;
+                rdfs:domain [ rdf:type owl:Class ;
+                              owl:unionOf ( prov:Activity
+                                            prov:Agent
+                                            prov:Entity
+                                            prov:InstantaneousEvent
+                                          )
+                            ] ;
+                rdfs:range prov:Location ;
+                rdfs:comment "The Location of any resource."@en ,
+                             "This property has multiple RDFS domains to suit multiple OWL Profiles. See <a href=\"#owl-profile\">PROV-O OWL Profile</a>." ;
+                rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
+                rdfs:label "atLocation" ;
+                prov:category "expanded" ;
+                prov:editorialNote "The naming of prov:atLocation parallels prov:atTime, and is not named prov:hadLocation to avoid conflicting with the convention that prov:had* properties are used on prov:Influence classes."@en ,
+                                   "This property is not functional because the many values could be at a variety of granularies (In this building, in this room, in that chair)."@en ;
+                prov:inverse "locationOf" ;
+                prov:sharesDefinitionWith prov:Location .
 
 
 ###  http://www.w3.org/ns/ssn/hasSubSystem
@@ -149,7 +167,12 @@ ssn:hasSubSystem rdf:type owl:ObjectProperty ;
 
 ###  http://www.w3.org/ns/ssn/implementedBy
 ssn:implementedBy rdf:type owl:ObjectProperty ;
-                  owl:inverseOf ssn:implements .
+                  owl:inverseOf ssn:implements ;
+                  rdfs:comment "Relation between a Procedure (an algorithm, procedure or method) and an entity that implements that Procedure in some executable way."@en ;
+                  rdfs:isDefinedBy ssn: ;
+                  rdfs:label "implemented by"@en ;
+                  skos:definition "Relation between a Procedure (an algorithm, procedure or method) and an entity that implements that Procedure in some executable way."@en ;
+                  skos:example "For example, the relationship between a scientific measuring Procedure and a sensor that senses via that Procedure."@en .
 
 
 ###  http://www.w3.org/ns/ssn/implements
@@ -161,60 +184,118 @@ ssn:implements rdf:type owl:ObjectProperty ;
                skos:example "For example, the relationship between a sensor and the scientific measuring Procedure via which it senses."@en .
 
 
+###  https://github.com/tibonto/mato#isLocatedIn
+mato:isLocatedIn rdf:type owl:ObjectProperty ;
+                 rdfs:label "is located in"@en ;
+                 skos:closeMatch <http://www.owl-ontologies.com/mason.owl#isLocatedIn> ,
+                                 "is located in"@en .
+
+
 #################################################################
 #    Data properties
 #################################################################
 
 ###  https://github.com/tibonto/mato#hasDescription
-mato:hasDescription rdf:type owl:DatatypeProperty .
+mato:hasDescription rdf:type owl:DatatypeProperty ;
+                    rdfs:label "has description"@en .
 
 
 ###  https://github.com/tibonto/mato#hasManufacturer
-mato:hasManufacturer rdf:type owl:DatatypeProperty .
+mato:hasManufacturer rdf:type owl:DatatypeProperty ;
+                     rdfs:label "has manufacturer"@en .
 
 
 ###  https://github.com/tibonto/mato#hasModel
-mato:hasModel rdf:type owl:DatatypeProperty .
+mato:hasModel rdf:type owl:DatatypeProperty ;
+              rdfs:label "has model"@en .
 
 
 ###  https://github.com/tibonto/mato#isResponsibleFor
-mato:isResponsibleFor rdf:type owl:DatatypeProperty .
+mato:isResponsibleFor rdf:type owl:DatatypeProperty ;
+                      rdfs:label "is responsible for"@en .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://infoneer.txstate.edu/ontology/MSDL_0000033
-<http://infoneer.txstate.edu/ontology/MSDL_0000033> rdf:type owl:Class ;
-                                                    rdfs:subClassOf mato:Production_equipment ;
-                                                    rdfs:label "production machine" .
+###  http://purl.org/dc/terms/Agent
+dcterms:Agent rdf:type owl:Class ;
+              owl:equivalentClass <http://xmlns.com/foaf/0.1/Agent> .
 
 
-###  http://infoneer.txstate.edu/ontology/MSDL_0000036
-<http://infoneer.txstate.edu/ontology/MSDL_0000036> rdf:type owl:Class ;
-                                                    rdfs:subClassOf mato:Production_equipment ;
-                                                    rdfs:label "production tool" .
+###  http://www.w3.org/ns/org#Post
+org:Post rdf:type owl:Class ;
+         rdfs:comment "A Post represents some position within an organization that exists independently of the person or persons filling it. Posts may be used to represent situations where a person is a member of an organization ex officio (for example the Secretary of State for Scotland is part of UK Cabinet by virtue of being Secretary of State for Scotland, not as an individual person). A post can be held by multiple people and hence can be treated as a organization in its own right."@en ,
+                      "Puesto o posición que representa algún tipo de empleo dentro de una organización, que existe independientemente de la persona o personas que lo desempeñan. Esta clase puede utilizarse para representar situaciones en las que una persona es miembro de una organización ex oficio (por ejemplo, el Secretario de Estado escocés es parte del Gabinete del gobierno británico por virtud de ser Secretario de Estado en Escocia, y no como individuo). Un puesto puede ser desempeñado por múltiples individuos y de aquí que sea tratado como una organización en sí misma."@es ,
+                      "Un Impiego rappresenta una posizione all'interno dell'organizzazione che esiste indipendentemente dalla persona che la ricopre. Gli impieghi possono essere utilizzati per le situazioni in cui una persona è membro di un'organizzazione o di un ufficio (ad esempio un segretario di stato). Un Impiego può essere ricoperto da più persone."@it ,
+                      "Un Poste représente une position au sein d'une Organisation qui existe indépendamment de la personne ou des personnes qui le remplissent. Les postes peuvent être utilisés pour représenter des situations où une personne est membre d'une Organisation d'office (par exemple, le Secrétaire d'Etat pour l'Ecosse fait partie du Cabinet du Royaume-Uni du fait d'être Secrétaire d'Etat pour l'Ecosse, non pas comme une personne physique). Un poste après peut être occupé par plusieurs personnes et peut donc être considéré comme une Organisation à part entière."@fr ,
+                      "ポストは、それを埋める人（人々）とは無関係に存在する組織内のある位置を表わします。ポストは、人が職権上、組織のメンバーである状況を表わすために使用できます（例えば、スコットランド大臣は、個人としてではなく、スコットランド大臣であることにより、英国内閣の一部です）。ポストは、複数の人々によって保持されることが可能だあるため、それ自体を組織として扱うことができます。"@ja ;
+         rdfs:isDefinedBy <http://www.w3.org/ns/org> ;
+         rdfs:label "Impiego"@it ,
+                    "Post"@en ,
+                    "Poste"@fr ,
+                    "puesto"@es .
 
 
 ###  http://www.w3.org/ns/prov#Activity
-<http://www.w3.org/ns/prov#Activity> rdf:type owl:Class .
+prov:Activity rdf:type owl:Class ;
+              owl:disjointWith prov:Entity ;
+              rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
+              rdfs:label "Activity" ;
+              prov:category "starting-point" ;
+              prov:component "entities-activities" ;
+              prov:constraints "http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#prov-dm-constraints-fig"^^xsd:anyURI ;
+              prov:definition "An activity is something that occurs over a period of time and acts upon or with entities; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities." ;
+              prov:dm "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-Activity"^^xsd:anyURI ;
+              prov:n "http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-Activity"^^xsd:anyURI .
 
 
 ###  http://www.w3.org/ns/prov#Agent
-<http://www.w3.org/ns/prov#Agent> rdf:type owl:Class .
+prov:Agent rdf:type owl:Class ;
+           owl:disjointWith prov:InstantaneousEvent ;
+           rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
+           rdfs:label "Agent" ;
+           prov:category "starting-point" ;
+           prov:component "agents-responsibility" ;
+           prov:definition "An agent is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity. "@en ;
+           prov:dm "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-agent"^^xsd:anyURI ;
+           prov:n "http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-Agent"^^xsd:anyURI .
 
 
 ###  http://www.w3.org/ns/prov#Entity
-<http://www.w3.org/ns/prov#Entity> rdf:type owl:Class .
+prov:Entity rdf:type owl:Class ;
+            owl:disjointWith prov:InstantaneousEvent ;
+            rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
+            rdfs:label "Entity" ;
+            prov:category "starting-point" ;
+            prov:component "entities-activities" ;
+            prov:constraints "http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#prov-dm-constraints-fig"^^xsd:anyURI ;
+            prov:definition "An entity is a physical, digital, conceptual, or other kind of thing with some fixed aspects; entities may be real or imaginary. "@en ;
+            prov:dm "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-entity"^^xsd:anyURI ;
+            prov:n "http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-Entity"^^xsd:anyURI .
 
 
 ###  http://www.w3.org/ns/prov#InstantaneousEvent
-<http://www.w3.org/ns/prov#InstantaneousEvent> rdf:type owl:Class .
+prov:InstantaneousEvent rdf:type owl:Class ;
+                        rdfs:comment "An instantaneous event, or event for short, happens in the world and marks a change in the world, in its activities and in its entities. The term 'event' is commonly used in process algebra with a similar meaning. Events represent communications or interactions; they are assumed to be atomic and instantaneous."@en ;
+                        rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
+                        rdfs:label "InstantaneousEvent" ;
+                        prov:category "qualified" ;
+                        prov:component "entities-activities" ;
+                        prov:constraints "http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#dfn-event"^^xsd:anyURI ;
+                        prov:definition "The PROV data model is implicitly based on a notion of instantaneous events (or just events), that mark transitions in the world. Events include generation, usage, or invalidation of entities, as well as starting or ending of activities. This notion of event is not first-class in the data model, but it is useful for explaining its other concepts and its semantics."@en .
 
 
 ###  http://www.w3.org/ns/prov#Location
-<http://www.w3.org/ns/prov#Location> rdf:type owl:Class .
+prov:Location rdf:type owl:Class ;
+              rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
+              rdfs:label "Location" ;
+              rdfs:seeAlso prov:atLocation ;
+              prov:category "expanded" ;
+              prov:definition "A location can be an identifiable geographic place (ISO 19112), but it can also be a non-geographic place such as a directory, row, or column. As such, there are numerous ways in which location can be expressed, such as by a coordinate, address, landmark, and so forth."@en ;
+              prov:dm "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-attribute-location"^^xsd:anyURI ;
+              prov:n "http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-attribute"^^xsd:anyURI .
 
 
 ###  http://www.w3.org/ns/sosa/Procedure
@@ -252,39 +333,67 @@ ssn:System rdf:type owl:Class ;
            skos:definition "System is a unit of abstraction for pieces of infrastructure that implement Procedures. A System may have components, its subsystems, which are other systems."@en .
 
 
+###  http://xmlns.com/foaf/0.1/Agent
+<http://xmlns.com/foaf/0.1/Agent> rdf:type owl:Class ;
+                                  rdfs:comment "An agent (eg. person, group, software or physical artifact)." ;
+                                  rdfs:label "Agent" ;
+                                  ns:term_status "stable" .
+
+
 ###  https://github.com/tibonto/mato#Equipment
 mato:Equipment rdf:type owl:Class ;
-               rdfs:subClassOf ssn:System .
+               rdfs:subClassOf ssn:System ;
+               rdfs:label "Equipment"@en .
 
 
 ###  https://github.com/tibonto/mato#Handling_and_transportation_equipment
 mato:Handling_and_transportation_equipment rdf:type owl:Class ;
-                                           rdfs:subClassOf mato:Equipment .
+                                           rdfs:subClassOf mato:Equipment ;
+                                           rdfs:label "Handling and transportation equipment"@en .
 
 
 ###  https://github.com/tibonto/mato#Inspection_equipment
 mato:Inspection_equipment rdf:type owl:Class ;
-                          rdfs:subClassOf mato:Equipment .
+                          rdfs:subClassOf mato:Equipment ;
+                          rdfs:label "Inspection equipment"@en .
 
 
 ###  https://github.com/tibonto/mato#Machine_tool
 mato:Machine_tool rdf:type owl:Class ;
-                  rdfs:subClassOf <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
+                  rdfs:subClassOf mato:Production_tool ;
+                  rdfs:label "Machine tool"@en .
 
 
 ###  https://github.com/tibonto/mato#Production_equipment
 mato:Production_equipment rdf:type owl:Class ;
-                          rdfs:subClassOf mato:Equipment .
+                          rdfs:subClassOf mato:Equipment ;
+                          rdfs:label "Production equipment"@en .
+
+
+###  https://github.com/tibonto/mato#Production_machine
+mato:Production_machine rdf:type owl:Class ;
+                        rdfs:subClassOf mato:Production_equipment ;
+                        rdfs:label "Production machine"@en ;
+                        skos:closeMatch <http://infoneer.txstate.edu/ontology/MSDL_0000033> .
+
+
+###  https://github.com/tibonto/mato#Production_tool
+mato:Production_tool rdf:type owl:Class ;
+                     rdfs:subClassOf mato:Production_equipment ;
+                     rdfs:label "Production tool"@en ;
+                     skos:closeMatch <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
 
 
 ###  https://github.com/tibonto/mato#Software_tool
 mato:Software_tool rdf:type owl:Class ;
-                   rdfs:subClassOf <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
+                   rdfs:subClassOf mato:Production_tool ;
+                   rdfs:label "Software tool"@en .
 
 
 ###  https://github.com/tibonto/mato#Test_equipment
 mato:Test_equipment rdf:type owl:Class ;
-                    rdfs:subClassOf mato:Equipment .
+                    rdfs:subClassOf mato:Equipment ;
+                    rdfs:label "Test equipment"@en .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
