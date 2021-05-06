@@ -167,7 +167,12 @@ ssn:hasSubSystem rdf:type owl:ObjectProperty ;
 
 ###  http://www.w3.org/ns/ssn/implementedBy
 ssn:implementedBy rdf:type owl:ObjectProperty ;
-                  owl:inverseOf ssn:implements .
+                  owl:inverseOf ssn:implements ;
+                  rdfs:comment "Relation between a Procedure (an algorithm, procedure or method) and an entity that implements that Procedure in some executable way."@en ;
+                  rdfs:isDefinedBy ssn: ;
+                  rdfs:label "implemented by"@en ;
+                  skos:definition "Relation between a Procedure (an algorithm, procedure or method) and an entity that implements that Procedure in some executable way."@en ;
+                  skos:example "For example, the relationship between a scientific measuring Procedure and a sensor that senses via that Procedure."@en .
 
 
 ###  http://www.w3.org/ns/ssn/implements
@@ -181,6 +186,7 @@ ssn:implements rdf:type owl:ObjectProperty ;
 
 ###  https://github.com/tibonto/mato#isLocatedIn
 mato:isLocatedIn rdf:type owl:ObjectProperty ;
+                 rdfs:label "is located in"@en ;
                  skos:closeMatch <http://www.owl-ontologies.com/mason.owl#isLocatedIn> ,
                                  "is located in"@en .
 
