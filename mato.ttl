@@ -46,6 +46,10 @@ dc:title rdf:type owl:AnnotationProperty .
 dcterms:license rdf:type owl:AnnotationProperty .
 
 
+###  http://www.w3.org/2004/02/skos/core#closeMatch
+skos:closeMatch rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.w3.org/2004/02/skos/core#definition
 skos:definition rdf:type owl:AnnotationProperty .
 
@@ -93,11 +97,6 @@ skos:note rdf:type owl:AnnotationProperty .
 #################################################################
 #    Object Properties
 #################################################################
-
-###  http://www.owl-ontologies.com/mason.owl#isLocatedIn
-<http://www.owl-ontologies.com/mason.owl#isLocatedIn> rdf:type owl:ObjectProperty ;
-                                                      rdfs:label "is located in"^^xsd:string .
-
 
 ###  http://www.w3.org/ns/org#heldBy
 <http://www.w3.org/ns/org#heldBy> rdf:type owl:ObjectProperty ;
@@ -161,6 +160,10 @@ ssn:implements rdf:type owl:ObjectProperty ;
                skos:example "For example, the relationship between a sensor and the scientific measuring Procedure via which it senses."@en .
 
 
+###  https://github.com/tibonto/mato#isLocatedIn
+mato:isLocatedIn rdf:type owl:ObjectProperty .
+
+
 #################################################################
 #    Data properties
 #################################################################
@@ -184,18 +187,6 @@ mato:isResponsibleFor rdf:type owl:DatatypeProperty .
 #################################################################
 #    Classes
 #################################################################
-
-###  http://infoneer.txstate.edu/ontology/MSDL_0000033
-<http://infoneer.txstate.edu/ontology/MSDL_0000033> rdf:type owl:Class ;
-                                                    rdfs:subClassOf mato:Production_equipment ;
-                                                    rdfs:label "production machine" .
-
-
-###  http://infoneer.txstate.edu/ontology/MSDL_0000036
-<http://infoneer.txstate.edu/ontology/MSDL_0000036> rdf:type owl:Class ;
-                                                    rdfs:subClassOf mato:Production_equipment ;
-                                                    rdfs:label "production tool" .
-
 
 ###  http://www.w3.org/ns/prov#Activity
 <http://www.w3.org/ns/prov#Activity> rdf:type owl:Class .
@@ -267,19 +258,19 @@ mato:Inspection_equipment rdf:type owl:Class ;
                           rdfs:subClassOf mato:Equipment .
 
 
-###  https://github.com/tibonto/mato#Machine_tool
-mato:Machine_tool rdf:type owl:Class ;
-                  rdfs:subClassOf <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
-
-
 ###  https://github.com/tibonto/mato#Production_equipment
 mato:Production_equipment rdf:type owl:Class ;
                           rdfs:subClassOf mato:Equipment .
 
 
-###  https://github.com/tibonto/mato#Software_tool
-mato:Software_tool rdf:type owl:Class ;
-                   rdfs:subClassOf <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
+###  https://github.com/tibonto/mato#Production_tool
+mato:Production_tool rdf:type owl:Class ;
+                     rdfs:subClassOf mato:Production_equipment .
+
+
+###  https://github.com/tibonto/mato#Prouction_machine
+mato:Prouction_machine rdf:type owl:Class ;
+                       rdfs:subClassOf mato:Production_equipment .
 
 
 ###  https://github.com/tibonto/mato#Test_equipment
