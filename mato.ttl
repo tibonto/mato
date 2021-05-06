@@ -1,4 +1,6 @@
 @prefix : <http://www.semanticweb.org/Machine_and_Tool_Ontology> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix iao: <http://purl.obolibrary.org/obo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -23,16 +25,36 @@
 #    Annotation properties
 #################################################################
 
+###  http://purl.org/dc/elements/1.1/contributor
+dc:contributor rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+dc:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+dc:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+dc:title rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+dcterms:license rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.w3.org/2004/02/skos/core#definition
-<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
+skos:definition rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2004/02/skos/core#example
-<http://www.w3.org/2004/02/skos/core#example> rdf:type owl:AnnotationProperty .
+skos:example rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2004/02/skos/core#note
-<http://www.w3.org/2004/02/skos/core#note> rdf:type owl:AnnotationProperty .
+skos:note rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/ns/prov#category
@@ -83,8 +105,6 @@
 
 ###  http://www.w3.org/ns/org#holds
 <http://www.w3.org/ns/org#holds> rdf:type owl:ObjectProperty ;
-                                 rdfs:domain <http://xmlns.com/foaf/0.1/Agent> ;
-                                 rdfs:range <http://www.w3.org/ns/org#Post> ;
                                  rdfs:comment "Indica un Impiego ricoperto da un Agent."@it ,
                                               "Indicate un Poste occupé par un Agent."@fr ,
                                               "Indicates a Post held by some Agent."@en ,
@@ -123,7 +143,7 @@
                                         rdfs:comment "Relation between a System and its component parts."@en ;
                                         rdfs:isDefinedBy <http://www.w3.org/ns/ssn/> ;
                                         rdfs:label "has subsystem"@en ;
-                                        <http://www.w3.org/2004/02/skos/core#definition> "Relation between a System and its component parts."@en .
+                                        skos:definition "Relation between a System and its component parts."@en .
 
 
 ###  http://www.w3.org/ns/ssn/implementedBy
@@ -136,27 +156,27 @@
                                       rdfs:comment "Relation between an entity that implements a Procedure in some executable way and the Procedure (an algorithm, procedure or method)."@en ;
                                       rdfs:isDefinedBy <http://www.w3.org/ns/ssn/> ;
                                       rdfs:label "implements"@en ;
-                                      <http://www.w3.org/2004/02/skos/core#definition> "Relation between an entity that implements a Procedure in some executable way and the Procedure (an algorithm, procedure or method)."@en ;
-                                      <http://www.w3.org/2004/02/skos/core#example> "For example, the relationship between a sensor and the scientific measuring Procedure via which it senses."@en .
+                                      skos:definition "Relation between an entity that implements a Procedure in some executable way and the Procedure (an algorithm, procedure or method)."@en ;
+                                      skos:example "For example, the relationship between a sensor and the scientific measuring Procedure via which it senses."@en .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology#hasDescription
+###  http://www.semanticweb.org/Machine_and_Tool_OntologyhasDescription
 :hasDescription rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology#hasManufacturer
+###  http://www.semanticweb.org/Machine_and_Tool_OntologyhasManufacturer
 :hasManufacturer rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology#hasModel
+###  http://www.semanticweb.org/Machine_and_Tool_OntologyhasModel
 :hasModel rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology#isResponsibleFor
+###  http://www.semanticweb.org/Machine_and_Tool_OntologyisResponsibleFor
 :isResponsibleFor rdf:type owl:DatatypeProperty .
 
 
@@ -176,61 +196,39 @@
                                                     rdfs:label "production tool" .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Equipment
+###  http://www.semanticweb.org/Machine_and_Tool_OntologyEquipment
 :Equipment rdf:type owl:Class ;
            rdfs:subClassOf <http://www.w3.org/ns/ssn/System> .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Handling_and_transportation_equipment
+###  http://www.semanticweb.org/Machine_and_Tool_OntologyHandling_and_transportation_equipment
 :Handling_and_transportation_equipment rdf:type owl:Class ;
                                        rdfs:subClassOf :Equipment .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Inspection_equipment
+###  http://www.semanticweb.org/Machine_and_Tool_OntologyInspection_equipment
 :Inspection_equipment rdf:type owl:Class ;
                       rdfs:subClassOf :Equipment .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Machine_tool
+###  http://www.semanticweb.org/Machine_and_Tool_OntologyMachine_tool
 :Machine_tool rdf:type owl:Class ;
               rdfs:subClassOf <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Production_equipment
+###  http://www.semanticweb.org/Machine_and_Tool_OntologyProduction_equipment
 :Production_equipment rdf:type owl:Class ;
                       rdfs:subClassOf :Equipment .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Project_coordinator
-:Project_coordinator rdf:type owl:Class .
-
-
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Project_manager
-:Project_manager rdf:type owl:Class .
-
-
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Software_tool
+###  http://www.semanticweb.org/Machine_and_Tool_OntologySoftware_tool
 :Software_tool rdf:type owl:Class ;
                rdfs:subClassOf <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
 
 
-###  http://www.semanticweb.org/Machine_and_Tool_Ontology#Test_equipment
+###  http://www.semanticweb.org/Machine_and_Tool_OntologyTest_equipment
 :Test_equipment rdf:type owl:Class ;
                 rdfs:subClassOf :Equipment .
-
-
-###  http://www.w3.org/ns/org#Post
-<http://www.w3.org/ns/org#Post> rdf:type owl:Class ;
-                                rdfs:comment "A Post represents some position within an organization that exists independently of the person or persons filling it. Posts may be used to represent situations where a person is a member of an organization ex officio (for example the Secretary of State for Scotland is part of UK Cabinet by virtue of being Secretary of State for Scotland, not as an individual person). A post can be held by multiple people and hence can be treated as a organization in its own right."@en ,
-                                             "Puesto o posición que representa algún tipo de empleo dentro de una organización, que existe independientemente de la persona o personas que lo desempeñan. Esta clase puede utilizarse para representar situaciones en las que una persona es miembro de una organización ex oficio (por ejemplo, el Secretario de Estado escocés es parte del Gabinete del gobierno británico por virtud de ser Secretario de Estado en Escocia, y no como individuo). Un puesto puede ser desempeñado por múltiples individuos y de aquí que sea tratado como una organización en sí misma."@es ,
-                                             "Un Impiego rappresenta una posizione all'interno dell'organizzazione che esiste indipendentemente dalla persona che la ricopre. Gli impieghi possono essere utilizzati per le situazioni in cui una persona è membro di un'organizzazione o di un ufficio (ad esempio un segretario di stato). Un Impiego può essere ricoperto da più persone."@it ,
-                                             "Un Poste représente une position au sein d'une Organisation qui existe indépendamment de la personne ou des personnes qui le remplissent. Les postes peuvent être utilisés pour représenter des situations où une personne est membre d'une Organisation d'office (par exemple, le Secrétaire d'Etat pour l'Ecosse fait partie du Cabinet du Royaume-Uni du fait d'être Secrétaire d'Etat pour l'Ecosse, non pas comme une personne physique). Un poste après peut être occupé par plusieurs personnes et peut donc être considéré comme une Organisation à part entière."@fr ,
-                                             "ポストは、それを埋める人（人々）とは無関係に存在する組織内のある位置を表わします。ポストは、人が職権上、組織のメンバーである状況を表わすために使用できます（例えば、スコットランド大臣は、個人としてではなく、スコットランド大臣であることにより、英国内閣の一部です）。ポストは、複数の人々によって保持されることが可能だあるため、それ自体を組織として扱うことができます。"@ja ;
-                                rdfs:isDefinedBy <http://www.w3.org/ns/org> ;
-                                rdfs:label "Impiego"@it ,
-                                           "Post"@en ,
-                                           "Poste"@fr ,
-                                           "puesto"@es .
 
 
 ###  http://www.w3.org/ns/prov#Activity
@@ -253,18 +251,6 @@
 <http://www.w3.org/ns/prov#Location> rdf:type owl:Class .
 
 
-###  http://www.w3.org/ns/prov#Person
-<http://www.w3.org/ns/prov#Person> rdf:type owl:Class ;
-                                   rdfs:subClassOf <http://www.w3.org/ns/prov#Agent> ;
-                                   rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
-                                   rdfs:label "Person" ;
-                                   <http://www.w3.org/ns/prov#category> "expanded" ;
-                                   <http://www.w3.org/ns/prov#component> "agents-responsibility" ;
-                                   <http://www.w3.org/ns/prov#definition> "Person agents are people."@en ;
-                                   <http://www.w3.org/ns/prov#dm> "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-agent"^^xsd:anyURI ;
-                                   <http://www.w3.org/ns/prov#n> "http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-types"^^xsd:anyURI .
-
-
 ###  http://www.w3.org/ns/sosa/Procedure
 <http://www.w3.org/ns/sosa/Procedure> rdf:type owl:Class ;
                                       rdfs:subClassOf [ rdf:type owl:Restriction ;
@@ -274,9 +260,9 @@
                                       rdfs:comment "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation, create a Sample, or make a change to the state of the world (via an Actuator). A Procedure is re-usable, and might be involved in many Observations, Samplings, or Actuations. It explains the steps to be carried out to arrive at reproducible results."@en ;
                                       rdfs:isDefinedBy <http://www.w3.org/ns/sosa/> ;
                                       rdfs:label "Procedure"@en ;
-                                      <http://www.w3.org/2004/02/skos/core#definition> "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation, create a Sample, or make a change to the state of the world (via an Actuator). A Procedure is re-usable, and might be involved in many Observations, Samplings, or Actuations. It explains the steps to be carried out to arrive at reproducible results."@en ;
-                                      <http://www.w3.org/2004/02/skos/core#example> "The measured wind speed differs depending on the height of the sensor above the surface, e.g., due to friction. Consequently, procedures for measuring wind speed define a standard height for anemometers above ground, typically 10m for meteorological measures and 2m in Agrometeorology. This definition of height, sensor placement, and so forth are defined by the Procedure."@en ;
-                                      <http://www.w3.org/2004/02/skos/core#note> "Many observations may be created via the same Procedure, the same way as many tables are assembled using the same instructions (as information objects, not their concrete realization)."@en .
+                                      skos:definition "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation, create a Sample, or make a change to the state of the world (via an Actuator). A Procedure is re-usable, and might be involved in many Observations, Samplings, or Actuations. It explains the steps to be carried out to arrive at reproducible results."@en ;
+                                      skos:example "The measured wind speed differs depending on the height of the sensor above the surface, e.g., due to friction. Consequently, procedures for measuring wind speed define a standard height for anemometers above ground, typically 10m for meteorological measures and 2m in Agrometeorology. This definition of height, sensor placement, and so forth are defined by the Procedure."@en ;
+                                      skos:note "Many observations may be created via the same Procedure, the same way as many tables are assembled using the same instructions (as information objects, not their concrete realization)."@en .
 
 
 ###  http://www.w3.org/ns/ssn/System
@@ -297,11 +283,7 @@
                                   rdfs:comment "System is a unit of abstraction for pieces of infrastructure that implement Procedures. A System may have components, its subsystems, which are other systems."@en ;
                                   rdfs:isDefinedBy <http://www.w3.org/ns/ssn/> ;
                                   rdfs:label "System"@en ;
-                                  <http://www.w3.org/2004/02/skos/core#definition> "System is a unit of abstraction for pieces of infrastructure that implement Procedures. A System may have components, its subsystems, which are other systems."@en .
-
-
-###  http://xmlns.com/foaf/0.1/Agent
-<http://xmlns.com/foaf/0.1/Agent> rdf:type owl:Class .
+                                  skos:definition "System is a unit of abstraction for pieces of infrastructure that implement Procedures. A System may have components, its subsystems, which are other systems."@en .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
