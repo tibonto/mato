@@ -225,11 +225,6 @@ mato:isResponsibleFor rdf:type owl:DatatypeProperty .
 #    Classes
 #################################################################
 
-###  http://purl.org/dc/terms/Agent
-dcterms:Agent rdf:type owl:Class ;
-              owl:equivalentClass <http://xmlns.com/foaf/0.1/Agent> .
-
-
 ###  http://www.w3.org/ns/org#Post
 org:Post rdf:type owl:Class ;
          rdfs:comment "A Post represents some position within an organization that exists independently of the person or persons filling it. Posts may be used to represent situations where a person is a member of an organization ex officio (for example the Secretary of State for Scotland is part of UK Cabinet by virtue of being Secretary of State for Scotland, not as an individual person). A post can be held by multiple people and hence can be treated as a organization in its own right."@en ,
@@ -361,13 +356,6 @@ ssn:System rdf:type owl:Class ;
            rdfs:isDefinedBy ssn: ;
            rdfs:label "System"@en ;
            skos:definition "System is a unit of abstraction for pieces of infrastructure that implement Procedures. A System may have components, its subsystems, which are other systems."@en .
-
-
-###  http://xmlns.com/foaf/0.1/Agent
-<http://xmlns.com/foaf/0.1/Agent> rdf:type owl:Class ;
-                                  rdfs:comment "An agent (eg. person, group, software or physical artifact)." ;
-                                  rdfs:label "Agent" ;
-                                  ns:term_status "stable" .
 
 
 ###  https://github.com/tibonto/mato#Equipment
