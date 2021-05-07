@@ -188,6 +188,13 @@ ssn:implements rdf:type owl:ObjectProperty ;
                skos:example "For example, the relationship between a sensor and the scientific measuring Procedure via which it senses."@en .
 
 
+###  https://github.com/tibonto/mato#depicted_by
+mato:depicted_by rdf:type owl:ObjectProperty ;
+                 rdfs:domain ssn:System ;
+                 rdfs:label "depicted by"@en ;
+                 skos:closeMatch <http://xmlns.com/foaf/0.1/depicted_by> .
+
+
 ###  https://github.com/tibonto/mato#isResponsibleFor
 mato:isResponsibleFor rdf:type owl:ObjectProperty ;
                       rdfs:domain mato:Equipment ;
