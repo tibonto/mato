@@ -68,6 +68,10 @@ skos:example rdf:type owl:AnnotationProperty .
 skos:note rdf:type owl:AnnotationProperty .
 
 
+###  http://www.w3.org/2004/02/skos/core#relatedMatch
+skos:relatedMatch rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.w3.org/ns/prov#category
 prov:category rdf:type owl:AnnotationProperty .
 
@@ -184,13 +188,6 @@ ssn:implements rdf:type owl:ObjectProperty ;
                skos:example "For example, the relationship between a sensor and the scientific measuring Procedure via which it senses."@en .
 
 
-###  https://github.com/tibonto/mato#isLocatedIn
-mato:isLocatedIn rdf:type owl:ObjectProperty ;
-                 rdfs:label "is located in"@en ;
-                 skos:closeMatch <http://www.owl-ontologies.com/mason.owl#isLocatedIn> ,
-                                 "is located in"@en .
-
-
 ###  https://github.com/tibonto/mato#isResponsibleFor
 mato:isResponsibleFor rdf:type owl:ObjectProperty ;
                       rdfs:domain mato:Equipment ;
@@ -201,6 +198,13 @@ mato:isResponsibleFor rdf:type owl:ObjectProperty ;
 #################################################################
 #    Data properties
 #################################################################
+
+###  https://github.com/tibonto/mato#atLocation
+mato:atLocation rdf:type owl:DatatypeProperty ;
+                rdfs:domain mato:Equipment ;
+                rdfs:label "The location of an Equipment"@en ;
+                skos:relatedMatch prov:atLocation .
+
 
 ###  https://github.com/tibonto/mato#hasDescription
 mato:hasDescription rdf:type owl:DatatypeProperty ;
