@@ -267,6 +267,19 @@ ssn:implements rdf:type owl:ObjectProperty ;
                                     ns:term_status "testing" .
 
 
+###  https://github.com/tibonto/mato#employedIn
+mato:employedIn rdf:type owl:ObjectProperty ;
+                owl:inverseOf mato:employsEquipment ;
+                rdfs:domain mato:Equipment ;
+                rdfs:range mato:ApplicationContext ;
+                rdfs:label "employed in"@en .
+
+
+###  https://github.com/tibonto/mato#employsEquipment
+mato:employsEquipment rdf:type owl:ObjectProperty ;
+                      rdfs:label "employs equipment"@en .
+
+
 ###  https://github.com/tibonto/mato#isResponsibleFor
 mato:isResponsibleFor rdf:type owl:ObjectProperty ;
                       owl:inverseOf mato:underResponsibilityOf ;
@@ -458,6 +471,12 @@ ssn:System rdf:type owl:Class ;
 
 ###  http://xmlns.com/foaf/0.1/Image
 <http://xmlns.com/foaf/0.1/Image> rdf:type owl:Class .
+
+
+###  https://github.com/tibonto/mato#ApplicationContext
+mato:ApplicationContext rdf:type owl:Class ;
+                        iao:IAO_0000115 "The context in which an Equipment is used"@en ;
+                        rdfs:label "Application Context"@en .
 
 
 ###  https://github.com/tibonto/mato#Equipment
