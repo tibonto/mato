@@ -300,7 +300,8 @@ mato:usesTool rdf:type owl:ObjectProperty ;
 ###  https://github.com/tibonto/mato#atLocation
 mato:atLocation rdf:type owl:DatatypeProperty ;
                 rdfs:domain mato:Equipment ;
-                rdfs:label "The location of an Equipment"@en ;
+                rdfs:range xsd:string ;
+                rdfs:label "at location"@en ;
                 skos:relatedMatch prov:atLocation .
 
 
