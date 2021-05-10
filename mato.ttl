@@ -28,6 +28,92 @@
 #    Annotation properties
 #################################################################
 
+###  http://purl.obolibrary.org/obo/IAO_0000111
+iao:IAO_0000111 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000112
+iao:IAO_0000112 rdf:type owl:AnnotationProperty ;
+                iao:IAO_0000111 "example of usage"@en ;
+                iao:IAO_0000114 iao:IAO_0000122 ;
+                iao:IAO_0000115 "A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold."@en ;
+                iao:IAO_0000117 "PERSON:Daniel Schober"@en ;
+                iao:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
+                rdfs:isDefinedBy iao:iao.owl ;
+                rdfs:label "example of usage"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000114
+iao:IAO_0000114 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000115
+iao:IAO_0000115 rdf:type owl:AnnotationProperty ;
+                iao:IAO_0000111 "definition"@en ;
+                iao:IAO_0000114 iao:IAO_0000122 ;
+                iao:IAO_0000115 "The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en ;
+                iao:IAO_0000116 """2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  """@en ;
+                iao:IAO_0000117 "PERSON:Daniel Schober"@en ;
+                iao:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
+                rdfs:isDefinedBy iao:iao.owl ;
+                rdfs:label "definition"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000116
+iao:IAO_0000116 rdf:type owl:AnnotationProperty ;
+                iao:IAO_0000111 "editor note"@en ;
+                iao:IAO_0000114 iao:IAO_0000122 ;
+                iao:IAO_0000115 "An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology."@en ;
+                iao:IAO_0000117 "PERSON:Daniel Schober"@en ;
+                iao:IAO_0000119 "GROUP:OBI:<http://purl.obfoundry.org/obo/obi>"@en ;
+                rdfs:isDefinedBy iao:iao.owl ;
+                rdfs:label "editor note"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000117
+iao:IAO_0000117 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000119
+iao:IAO_0000119 rdf:type owl:AnnotationProperty ;
+                iao:IAO_0000111 "definition source"@en ;
+                iao:IAO_0000114 iao:IAO_0000122 ;
+                iao:IAO_0000115 "Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"@en ;
+                iao:IAO_0000117 "PERSON:Daniel Schober"@en ;
+                iao:IAO_0000119 "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"@en ;
+                rdfs:isDefinedBy iao:iao.owl ;
+                rdfs:label "definition source"@en .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000600
+iao:IAO_0000600 rdf:type owl:AnnotationProperty ;
+                iao:IAO_0000111 "elucidation"@en ;
+                iao:IAO_0000117 "person:Alan Ruttenberg"@en ;
+                iao:IAO_0000119 "Person:Barry Smith"@en ;
+                iao:IAO_0000600 "Primitive terms in a highest-level ontology such as BFO are terms which are so basic to our understanding of reality that there is no way of defining them in a non-circular fashion. For these, therefore, we can provide only elucidations, supplemented by examples and by axioms"@en ;
+                rdfs:isDefinedBy iao:iao.owl ;
+                rdfs:label "elucidation"@en .
+
+
 ###  http://purl.org/dc/elements/1.1/contributor
 dc:contributor rdf:type owl:AnnotationProperty .
 
@@ -188,6 +274,23 @@ mato:isResponsibleFor rdf:type owl:ObjectProperty ;
                       rdfs:range prov:Organization ,
                                  prov:Person ;
                       rdfs:label "is responsible for"@en .
+
+
+###  https://github.com/tibonto/mato#usedByMachine
+mato:usedByMachine rdf:type owl:ObjectProperty ;
+                   owl:inverseOf mato:usesTool ;
+                   rdfs:domain mato:Tool ;
+                   rdfs:range mato:Machine ;
+                   iao:IAO_0000115 "This property allows the linkage of a tool with a machine, in a way that the tool is used by the machine."@en ;
+                   rdfs:label "used by machine"@en .
+
+
+###  https://github.com/tibonto/mato#usesTool
+mato:usesTool rdf:type owl:ObjectProperty ;
+              rdfs:domain mato:Machine ;
+              rdfs:range mato:Tool ;
+              iao:IAO_0000115 "This property allows the linkage of a machine with a tool, in a way that the machine uses the tool."@en ;
+              rdfs:label "uses tool"@en .
 
 
 #################################################################
