@@ -306,18 +306,21 @@ mato:atLocation rdf:type owl:DatatypeProperty ;
 
 ###  https://github.com/tibonto/mato#hasDescription
 mato:hasDescription rdf:type owl:DatatypeProperty ;
+                    rdfs:domain mato:Equipment ;
                     rdfs:range xsd:string ;
                     rdfs:label "has description"@en .
 
 
 ###  https://github.com/tibonto/mato#hasManufacturer
 mato:hasManufacturer rdf:type owl:DatatypeProperty ;
+                     rdfs:domain mato:Equipment ;
                      rdfs:range xsd:string ;
                      rdfs:label "has manufacturer"@en .
 
 
 ###  https://github.com/tibonto/mato#hasModel
 mato:hasModel rdf:type owl:DatatypeProperty ;
+              rdfs:domain mato:Equipment ;
               rdfs:range xsd:string ;
               rdfs:label "has model"@en .
 
