@@ -206,13 +206,6 @@ org:heldBy rdf:type owl:ObjectProperty ;
            rdfs:label "held by"@en .
 
 
-###  http://www.w3.org/ns/org#holds
-org:holds rdf:type owl:ObjectProperty ;
-          rdfs:comment "Indicates a Post held by some Agent."@en ;
-          rdfs:isDefinedBy <http://www.w3.org/ns/org> ;
-          rdfs:label "holds"@en .
-
-
 ###  http://www.w3.org/ns/prov#atLocation
 prov:atLocation rdf:type owl:ObjectProperty ;
                 rdfs:domain [ rdf:type owl:Class ;
