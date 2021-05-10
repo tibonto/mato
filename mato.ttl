@@ -280,10 +280,16 @@ ssn:implements rdf:type owl:ObjectProperty ;
 
 ###  https://github.com/tibonto/mato#isResponsibleFor
 mato:isResponsibleFor rdf:type owl:ObjectProperty ;
-                      rdfs:domain mato:Equipment ;
-                      rdfs:range prov:Organization ,
-                                 prov:Person ;
+                      owl:inverseOf mato:underResponsibilityOf ;
                       rdfs:label "is responsible for"@en .
+
+
+###  https://github.com/tibonto/mato#underResponsibilityOf
+mato:underResponsibilityOf rdf:type owl:ObjectProperty ;
+                           rdfs:domain mato:Equipment ;
+                           rdfs:range mato:ResponsibleForEquipment ;
+                           iao:IAO_0000115 ""@en ;
+                           rdfs:label "Under the responsibility of"@en .
 
 
 ###  https://github.com/tibonto/mato#usedByMachine
@@ -402,6 +408,7 @@ prov:Location rdf:type owl:Class ;
 
 ###  http://www.w3.org/ns/prov#Organization
 prov:Organization rdf:type owl:Class ;
+                  owl:equivalentClass mato:ResponsibleForEquipment ;
                   rdfs:subClassOf prov:Agent ;
                   rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
                   rdfs:label "Organization" ;
@@ -414,6 +421,7 @@ prov:Organization rdf:type owl:Class ;
 
 ###  http://www.w3.org/ns/prov#Person
 prov:Person rdf:type owl:Class ;
+            owl:equivalentClass mato:ResponsibleForEquipment ;
             rdfs:subClassOf prov:Agent ;
             rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
             rdfs:label "Person" ;
@@ -521,6 +529,13 @@ mato:Production_tool rdf:type owl:Class ;
                      rdfs:subClassOf mato:Tool ;
                      rdfs:label "Production tool"@en ;
                      skos:closeMatch <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
+
+
+###  https://github.com/tibonto/mato#ResponsibleForEquipment
+mato:ResponsibleForEquipment rdf:type owl:Class ;
+                             rdfs:subClassOf prov:Agent ;
+                             iao:IAO_0000115 "Person and/or who is reponsible for the Equipment"@en ;
+                             rdfs:label "Responsible for equipment"@en .
 
 
 ###  https://github.com/tibonto/mato#Software_tool
