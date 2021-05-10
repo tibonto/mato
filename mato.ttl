@@ -277,6 +277,8 @@ mato:employedIn rdf:type owl:ObjectProperty ;
 
 ###  https://github.com/tibonto/mato#employsEquipment
 mato:employsEquipment rdf:type owl:ObjectProperty ;
+                      rdfs:domain mato:ApplicationContext ;
+                      rdfs:range mato:Equipment ;
                       rdfs:label "employs equipment"@en .
 
 
