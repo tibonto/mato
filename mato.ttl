@@ -466,54 +466,10 @@ mato:Equipment rdf:type owl:Class ;
                rdfs:label "Equipment"@en .
 
 
-###  https://github.com/tibonto/mato#Handling_and_transportation_machine
-mato:Handling_and_transportation_machine rdf:type owl:Class ;
-                                         rdfs:subClassOf mato:Machine ;
-                                         rdfs:label "Handling and transportation machine"@en .
-
-
-###  https://github.com/tibonto/mato#Handling_and_transportation_tool
-mato:Handling_and_transportation_tool rdf:type owl:Class ;
-                                      rdfs:subClassOf mato:Tool ;
-                                      rdfs:label "Handling and transportation tool"@en .
-
-
-###  https://github.com/tibonto/mato#Inspection_machine
-mato:Inspection_machine rdf:type owl:Class ;
-                        rdfs:subClassOf mato:Machine ;
-                        rdfs:label "Inspection machine"@en .
-
-
-###  https://github.com/tibonto/mato#Inspection_tool
-mato:Inspection_tool rdf:type owl:Class ;
-                     rdfs:subClassOf mato:Tool ;
-                     rdfs:label "Inspection tool"@en .
-
-
 ###  https://github.com/tibonto/mato#Machine
 mato:Machine rdf:type owl:Class ;
              rdfs:subClassOf mato:Equipment ;
              rdfs:label "Machine"@en .
-
-
-###  https://github.com/tibonto/mato#Machine_tool
-mato:Machine_tool rdf:type owl:Class ;
-                  rdfs:subClassOf mato:Production_tool ;
-                  rdfs:label "Machine tool"@en .
-
-
-###  https://github.com/tibonto/mato#Production_machine
-mato:Production_machine rdf:type owl:Class ;
-                        rdfs:subClassOf mato:Machine ;
-                        rdfs:label "Production machine"@en ;
-                        skos:closeMatch <http://infoneer.txstate.edu/ontology/MSDL_0000033> .
-
-
-###  https://github.com/tibonto/mato#Production_tool
-mato:Production_tool rdf:type owl:Class ;
-                     rdfs:subClassOf mato:Tool ;
-                     rdfs:label "Production tool"@en ;
-                     skos:closeMatch <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
 
 
 ###  https://github.com/tibonto/mato#ResponsibleForEquipment
@@ -521,24 +477,6 @@ mato:ResponsibleForEquipment rdf:type owl:Class ;
                              rdfs:subClassOf prov:Agent ;
                              iao:IAO_0000115 "Person and/or who is reponsible for the Equipment"@en ;
                              rdfs:label "Responsible for equipment"@en .
-
-
-###  https://github.com/tibonto/mato#Software_tool
-mato:Software_tool rdf:type owl:Class ;
-                   rdfs:subClassOf mato:Production_tool ;
-                   rdfs:label "Software tool"@en .
-
-
-###  https://github.com/tibonto/mato#Test_machine
-mato:Test_machine rdf:type owl:Class ;
-                  rdfs:subClassOf mato:Machine ;
-                  rdfs:label "Test machine"@en .
-
-
-###  https://github.com/tibonto/mato#Test_tool
-mato:Test_tool rdf:type owl:Class ;
-               rdfs:subClassOf mato:Tool ;
-               rdfs:label "Test tool"@en .
 
 
 ###  https://github.com/tibonto/mato#Tool
