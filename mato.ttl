@@ -246,11 +246,36 @@ ssn:implements rdf:type owl:ObjectProperty ;
                skos:example "For example, the relationship between a sensor and the scientific measuring Procedure via which it senses."@en .
 
 
-###  https://github.com/tibonto/mato#depicted_by
-mato:depicted_by rdf:type owl:ObjectProperty ;
-                 rdfs:domain ssn:System ;
-                 rdfs:label "depicted by"@en ;
-                 skos:closeMatch <http://xmlns.com/foaf/0.1/depicted_by> .
+###  http://xmlns.com/foaf/0.1/depiction
+<http://xmlns.com/foaf/0.1/depiction> rdf:type owl:ObjectProperty ;
+                                      owl:inverseOf <http://xmlns.com/foaf/0.1/depicts> ;
+                                      rdfs:domain owl:Thing ;
+                                      rdfs:range <http://xmlns.com/foaf/0.1/Image> ;
+                                      rdfs:comment "A depiction of some thing." ;
+                                      rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+                                      rdfs:label "depiction" ;
+                                      ns:term_status "testing" .
+
+
+###  http://xmlns.com/foaf/0.1/depicts
+<http://xmlns.com/foaf/0.1/depicts> rdf:type owl:ObjectProperty ;
+                                    rdfs:domain <http://xmlns.com/foaf/0.1/Image> ;
+                                    rdfs:range owl:Thing ;
+                                    rdfs:comment "A thing depicted in this representation." ;
+                                    rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+                                    rdfs:label "depicts" ;
+                                    ns:term_status "testing" .
+
+
+###  http://xmlns.com/foaf/0.1/img
+<http://xmlns.com/foaf/0.1/img> rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/depiction> ;
+                                rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+                                rdfs:range <http://xmlns.com/foaf/0.1/Image> ;
+                                rdfs:comment "An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one's photo on a homepage)." ;
+                                rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+                                rdfs:label "image" ;
+                                ns:term_status "testing" .
 
 
 ###  https://github.com/tibonto/mato#isResponsibleFor
@@ -432,6 +457,14 @@ ssn:System rdf:type owl:Class ;
            rdfs:isDefinedBy ssn: ;
            rdfs:label "System"@en ;
            skos:definition "System is a unit of abstraction for pieces of infrastructure that implement Procedures. A System may have components, its subsystems, which are other systems."@en .
+
+
+###  http://xmlns.com/foaf/0.1/Image
+<http://xmlns.com/foaf/0.1/Image> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class .
 
 
 ###  https://github.com/tibonto/mato#Equipment
