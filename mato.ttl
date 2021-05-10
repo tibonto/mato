@@ -267,17 +267,6 @@ ssn:implements rdf:type owl:ObjectProperty ;
                                     ns:term_status "testing" .
 
 
-###  http://xmlns.com/foaf/0.1/img
-<http://xmlns.com/foaf/0.1/img> rdf:type owl:ObjectProperty ;
-                                rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/depiction> ;
-                                rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
-                                rdfs:range <http://xmlns.com/foaf/0.1/Image> ;
-                                rdfs:comment "An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one's photo on a homepage)." ;
-                                rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
-                                rdfs:label "image" ;
-                                ns:term_status "testing" .
-
-
 ###  https://github.com/tibonto/mato#isResponsibleFor
 mato:isResponsibleFor rdf:type owl:ObjectProperty ;
                       owl:inverseOf mato:underResponsibilityOf ;
@@ -469,10 +458,6 @@ ssn:System rdf:type owl:Class ;
 
 ###  http://xmlns.com/foaf/0.1/Image
 <http://xmlns.com/foaf/0.1/Image> rdf:type owl:Class .
-
-
-###  http://xmlns.com/foaf/0.1/Person
-<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class .
 
 
 ###  https://github.com/tibonto/mato#Equipment
