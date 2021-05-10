@@ -34,17 +34,13 @@ iao:IAO_0000111 rdf:type owl:AnnotationProperty .
 
 ###  http://purl.obolibrary.org/obo/IAO_0000112
 iao:IAO_0000112 rdf:type owl:AnnotationProperty ;
-                iao:IAO_0000111 "example"@en ,
-                                "example of usage"@en ;
+                iao:IAO_0000111 "example of usage"@en ;
                 iao:IAO_0000114 iao:IAO_0000122 ;
-                iao:IAO_0000115 "A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not." ,
-                                "A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold."@en ;
+                iao:IAO_0000115 "A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold."@en ;
                 iao:IAO_0000117 "PERSON:Daniel Schober"@en ;
-                iao:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ,
-                                "IAO" ;
+                iao:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                 rdfs:isDefinedBy iao:iao.owl ;
-                rdfs:label "example of usage" ,
-                           "example of usage"@en .
+                rdfs:label "example of usage"@en .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000114
@@ -53,12 +49,9 @@ iao:IAO_0000114 rdf:type owl:AnnotationProperty .
 
 ###  http://purl.obolibrary.org/obo/IAO_0000115
 iao:IAO_0000115 rdf:type owl:AnnotationProperty ;
-                iao:IAO_0000111 "definition"@en ,
-                                "definition"^^xsd:string ,
-                                "textual definition"^^xsd:string ;
+                iao:IAO_0000111 "definition"@en ;
                 iao:IAO_0000114 iao:IAO_0000122 ;
-                iao:IAO_0000115 "The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en ,
-                                "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en ;
+                iao:IAO_0000115 "The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en ;
                 iao:IAO_0000116 """2012-04-05: 
 Barry Smith
 
@@ -82,9 +75,7 @@ We also have the outstanding issue of how to aim different definitions to differ
                 iao:IAO_0000117 "PERSON:Daniel Schober"@en ;
                 iao:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                 rdfs:isDefinedBy iao:iao.owl ;
-                rdfs:label "definition"@en ,
-                           "definition"^^xsd:string ,
-                           "textual definition"^^xsd:string .
+                rdfs:label "definition"@en .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000116
@@ -93,8 +84,7 @@ iao:IAO_0000116 rdf:type owl:AnnotationProperty ;
                 iao:IAO_0000114 iao:IAO_0000122 ;
                 iao:IAO_0000115 "An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology."@en ;
                 iao:IAO_0000117 "PERSON:Daniel Schober"@en ;
-                iao:IAO_0000119 "GROUP:OBI:<http://purl.obfoundry.org/obo/obi>"@en ,
-                                "GROUP:OBI:<http://purl.obofoundry.org/obo/obi>"@en ;
+                iao:IAO_0000119 "GROUP:OBI:<http://purl.obfoundry.org/obo/obi>"@en ;
                 rdfs:isDefinedBy iao:iao.owl ;
                 rdfs:label "editor note"@en .
 
@@ -107,15 +97,11 @@ iao:IAO_0000117 rdf:type owl:AnnotationProperty .
 iao:IAO_0000119 rdf:type owl:AnnotationProperty ;
                 iao:IAO_0000111 "definition source"@en ;
                 iao:IAO_0000114 iao:IAO_0000122 ;
-                iao:IAO_0000115 "Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"@en ,
-                                "formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"@en ;
+                iao:IAO_0000115 "Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"@en ;
                 iao:IAO_0000117 "PERSON:Daniel Schober"@en ;
-                iao:IAO_0000119 "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"@en ,
-                                "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"^^xsd:string ,
-                                "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
+                iao:IAO_0000119 "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"@en ;
                 rdfs:isDefinedBy iao:iao.owl ;
-                rdfs:label "definition source" ,
-                           "definition source"@en .
+                rdfs:label "definition source"@en .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000600
@@ -301,7 +287,6 @@ mato:usedByMachine rdf:type owl:ObjectProperty ;
 
 ###  https://github.com/tibonto/mato#usesTool
 mato:usesTool rdf:type owl:ObjectProperty ;
-              owl:inverseOf mato:usedByMachine ;
               rdfs:domain mato:Machine ;
               rdfs:range mato:Tool ;
               iao:IAO_0000115 "This property allows the linkage of a machine with a tool, in a way that the machine uses the tool."@en ;
@@ -545,13 +530,6 @@ mato:Test_tool rdf:type owl:Class ;
 mato:Tool rdf:type owl:Class ;
           rdfs:subClassOf mato:Equipment ;
           rdfs:label "Tool"@en .
-
-
-#################################################################
-#    Annotations
-#################################################################
-
-owl:Thing iao:IAO_0000115 "This property allows the linkage of a tool with a machine, in a way that the tool is used by the machine."@en .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
