@@ -198,21 +198,6 @@ prov:sharesDefinitionWith rdf:type owl:AnnotationProperty .
 #    Object Properties
 #################################################################
 
-###  http://www.w3.org/ns/org#heldBy
-org:heldBy rdf:type owl:ObjectProperty ;
-           rdfs:domain org:Post ;
-           rdfs:comment "Indicates an Agent which holds a Post."@en ;
-           rdfs:isDefinedBy <http://www.w3.org/ns/org> ;
-           rdfs:label "held by"@en .
-
-
-###  http://www.w3.org/ns/org#holds
-org:holds rdf:type owl:ObjectProperty ;
-          rdfs:comment "Indicates a Post held by some Agent."@en ;
-          rdfs:isDefinedBy <http://www.w3.org/ns/org> ;
-          rdfs:label "holds"@en .
-
-
 ###  http://www.w3.org/ns/prov#atLocation
 prov:atLocation rdf:type owl:ObjectProperty ;
                 rdfs:domain [ rdf:type owl:Class ;
@@ -261,19 +246,39 @@ ssn:implements rdf:type owl:ObjectProperty ;
                skos:example "For example, the relationship between a sensor and the scientific measuring Procedure via which it senses."@en .
 
 
-###  https://github.com/tibonto/mato#depicted_by
-mato:depicted_by rdf:type owl:ObjectProperty ;
-                 rdfs:domain ssn:System ;
-                 rdfs:label "depicted by"@en ;
-                 skos:closeMatch <http://xmlns.com/foaf/0.1/depicted_by> .
+###  http://xmlns.com/foaf/0.1/depiction
+<http://xmlns.com/foaf/0.1/depiction> rdf:type owl:ObjectProperty ;
+                                      owl:inverseOf <http://xmlns.com/foaf/0.1/depicts> ;
+                                      rdfs:domain owl:Thing ;
+                                      rdfs:range <http://xmlns.com/foaf/0.1/Image> ;
+                                      rdfs:comment "A depiction of some thing." ;
+                                      rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+                                      rdfs:label "depiction" ;
+                                      ns:term_status "testing" .
+
+
+###  http://xmlns.com/foaf/0.1/depicts
+<http://xmlns.com/foaf/0.1/depicts> rdf:type owl:ObjectProperty ;
+                                    rdfs:domain <http://xmlns.com/foaf/0.1/Image> ;
+                                    rdfs:range owl:Thing ;
+                                    rdfs:comment "A thing depicted in this representation." ;
+                                    rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+                                    rdfs:label "depicts" ;
+                                    ns:term_status "testing" .
 
 
 ###  https://github.com/tibonto/mato#isResponsibleFor
 mato:isResponsibleFor rdf:type owl:ObjectProperty ;
-                      rdfs:domain mato:Equipment ;
-                      rdfs:range prov:Organization ,
-                                 prov:Person ;
+                      owl:inverseOf mato:underResponsibilityOf ;
                       rdfs:label "is responsible for"@en .
+
+
+###  https://github.com/tibonto/mato#underResponsibilityOf
+mato:underResponsibilityOf rdf:type owl:ObjectProperty ;
+                           rdfs:domain mato:Equipment ;
+                           rdfs:range mato:ResponsibleForEquipment ;
+                           iao:IAO_0000115 ""@en ;
+                           rdfs:label "Under the responsibility of"@en .
 
 
 ###  https://github.com/tibonto/mato#usedByMachine
@@ -300,24 +305,28 @@ mato:usesTool rdf:type owl:ObjectProperty ;
 ###  https://github.com/tibonto/mato#atLocation
 mato:atLocation rdf:type owl:DatatypeProperty ;
                 rdfs:domain mato:Equipment ;
-                rdfs:label "The location of an Equipment"@en ;
+                rdfs:range xsd:string ;
+                rdfs:label "at location"@en ;
                 skos:relatedMatch prov:atLocation .
 
 
 ###  https://github.com/tibonto/mato#hasDescription
 mato:hasDescription rdf:type owl:DatatypeProperty ;
+                    rdfs:domain mato:Equipment ;
                     rdfs:range xsd:string ;
                     rdfs:label "has description"@en .
 
 
 ###  https://github.com/tibonto/mato#hasManufacturer
 mato:hasManufacturer rdf:type owl:DatatypeProperty ;
+                     rdfs:domain mato:Equipment ;
                      rdfs:range xsd:string ;
                      rdfs:label "has manufacturer"@en .
 
 
 ###  https://github.com/tibonto/mato#hasModel
 mato:hasModel rdf:type owl:DatatypeProperty ;
+              rdfs:domain mato:Equipment ;
               rdfs:range xsd:string ;
               rdfs:label "has model"@en .
 
@@ -325,13 +334,6 @@ mato:hasModel rdf:type owl:DatatypeProperty ;
 #################################################################
 #    Classes
 #################################################################
-
-###  http://www.w3.org/ns/org#Post
-org:Post rdf:type owl:Class ;
-         rdfs:comment "A Post represents some position within an organization that exists independently of the person or persons filling it. Posts may be used to represent situations where a person is a member of an organization ex officio (for example the Secretary of State for Scotland is part of UK Cabinet by virtue of being Secretary of State for Scotland, not as an individual person). A post can be held by multiple people and hence can be treated as a organization in its own right."@en ;
-         rdfs:isDefinedBy <http://www.w3.org/ns/org> ;
-         rdfs:label "Post"@en .
-
 
 ###  http://www.w3.org/ns/prov#Activity
 prov:Activity rdf:type owl:Class ;
@@ -395,6 +397,7 @@ prov:Location rdf:type owl:Class ;
 
 ###  http://www.w3.org/ns/prov#Organization
 prov:Organization rdf:type owl:Class ;
+                  owl:equivalentClass mato:ResponsibleForEquipment ;
                   rdfs:subClassOf prov:Agent ;
                   rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
                   rdfs:label "Organization" ;
@@ -407,6 +410,7 @@ prov:Organization rdf:type owl:Class ;
 
 ###  http://www.w3.org/ns/prov#Person
 prov:Person rdf:type owl:Class ;
+            owl:equivalentClass mato:ResponsibleForEquipment ;
             rdfs:subClassOf prov:Agent ;
             rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
             rdfs:label "Person" ;
@@ -450,6 +454,10 @@ ssn:System rdf:type owl:Class ;
            rdfs:isDefinedBy ssn: ;
            rdfs:label "System"@en ;
            skos:definition "System is a unit of abstraction for pieces of infrastructure that implement Procedures. A System may have components, its subsystems, which are other systems."@en .
+
+
+###  http://xmlns.com/foaf/0.1/Image
+<http://xmlns.com/foaf/0.1/Image> rdf:type owl:Class .
 
 
 ###  https://github.com/tibonto/mato#Equipment
@@ -506,6 +514,13 @@ mato:Production_tool rdf:type owl:Class ;
                      rdfs:subClassOf mato:Tool ;
                      rdfs:label "Production tool"@en ;
                      skos:closeMatch <http://infoneer.txstate.edu/ontology/MSDL_0000036> .
+
+
+###  https://github.com/tibonto/mato#ResponsibleForEquipment
+mato:ResponsibleForEquipment rdf:type owl:Class ;
+                             rdfs:subClassOf prov:Agent ;
+                             iao:IAO_0000115 "Person and/or who is reponsible for the Equipment"@en ;
+                             rdfs:label "Responsible for equipment"@en .
 
 
 ###  https://github.com/tibonto/mato#Software_tool
