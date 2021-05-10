@@ -198,14 +198,6 @@ prov:sharesDefinitionWith rdf:type owl:AnnotationProperty .
 #    Object Properties
 #################################################################
 
-###  http://www.w3.org/ns/org#heldBy
-org:heldBy rdf:type owl:ObjectProperty ;
-           rdfs:domain org:Post ;
-           rdfs:comment "Indicates an Agent which holds a Post."@en ;
-           rdfs:isDefinedBy <http://www.w3.org/ns/org> ;
-           rdfs:label "held by"@en .
-
-
 ###  http://www.w3.org/ns/prov#atLocation
 prov:atLocation rdf:type owl:ObjectProperty ;
                 rdfs:domain [ rdf:type owl:Class ;
