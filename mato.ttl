@@ -412,7 +412,6 @@ prov:Location rdf:type owl:Class ;
 
 ###  http://www.w3.org/ns/prov#Organization
 prov:Organization rdf:type owl:Class ;
-                  owl:equivalentClass mato:ResponsibleForEquipment ;
                   rdfs:subClassOf prov:Agent ;
                   rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
                   rdfs:label "Organization" ;
@@ -425,7 +424,6 @@ prov:Organization rdf:type owl:Class ;
 
 ###  http://www.w3.org/ns/prov#Person
 prov:Person rdf:type owl:Class ;
-            owl:equivalentClass mato:ResponsibleForEquipment ;
             rdfs:subClassOf prov:Agent ;
             rdfs:isDefinedBy <http://www.w3.org/ns/prov-o#> ;
             rdfs:label "Person" ;
@@ -495,9 +493,21 @@ mato:Machine rdf:type owl:Class ;
 
 ###  https://github.com/tibonto/mato#ResponsibleForEquipment
 mato:ResponsibleForEquipment rdf:type owl:Class ;
+                             owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Class ;
+                                                                          owl:unionOf ( prov:Organization
+                                                                                        prov:Person
+                                                                                      )
+                                                                        ]
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty mato:isResponsibleFor ;
+                                                                          owl:someValuesFrom mato:Equipment
+                                                                        ]
+                                                                      ) ;
+                                                   rdf:type owl:Class
+                                                 ] ;
                              rdfs:subClassOf prov:Agent ;
-                             iao:IAO_0000115 "Person and/or who is reponsible for the Equipment"@en ;
-                             rdfs:label "Responsible for equipment"@en .
+                             iao:IAO_0000115 "A Person or Organization who is reponsible for the Equipment."@en ;
+                             rdfs:label "Agent responsible for equipment"@en .
 
 
 ###  https://github.com/tibonto/mato#Tool
