@@ -285,6 +285,8 @@ mato:employsEquipment rdf:type owl:ObjectProperty ;
 ###  https://github.com/tibonto/mato#isResponsibleFor
 mato:isResponsibleFor rdf:type owl:ObjectProperty ;
                       owl:inverseOf mato:underResponsibilityOf ;
+                      rdfs:domain mato:ResponsibleForEquipment ;
+                      rdfs:range mato:Equipment ;
                       rdfs:label "is responsible for"@en .
 
 
