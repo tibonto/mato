@@ -319,6 +319,16 @@ mato:usesTool rdf:type owl:ObjectProperty ;
 #    Data properties
 #################################################################
 
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdf:type owl:DatatypeProperty ;
+                                 rdfs:domain owl:Thing ;
+                                 rdfs:range rdfs:Literal ;
+                                 rdfs:comment "A name for some thing." ;
+                                 rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+                                 rdfs:label "name" ;
+                                 ns:term_status "testing" .
+
+
 ###  https://github.com/tibonto/mato#atLocation
 mato:atLocation rdf:type owl:DatatypeProperty ;
                 rdfs:domain mato:Equipment ;
