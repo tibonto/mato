@@ -37,10 +37,10 @@ jobs:
           robot -V
       - name: test for ERRORs with ROBOT report
         run: |
-          robot report --input mato.ttl
+          robot report --profile .github/report_profile.txt --input mato.ttl
       - name: produce report
         run: |
-          robot report --input mato.ttl --output report.txt
+          robot report .github/report_profile.txt --input mato.ttl --output report.txt
       - name: report artifact
         uses: actions/upload-artifact@v2
         with:
