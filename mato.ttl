@@ -497,10 +497,22 @@ mato:Equipment rdf:type owl:Class ;
                rdfs:label "Equipment"@en .
 
 
+###  https://github.com/tibonto/mato#Hardware
+mato:Hardware rdf:type owl:Class ;
+              rdfs:subClassOf mato:MaterialEntityType ;
+              rdfs:label "Hardware"@en .
+
+
 ###  https://github.com/tibonto/mato#Machine
 mato:Machine rdf:type owl:Class ;
              rdfs:subClassOf mato:Equipment ;
              rdfs:label "Machine"@en .
+
+
+###  https://github.com/tibonto/mato#MaterialEntityType
+mato:MaterialEntityType rdf:type owl:Class ;
+                        iao:IAO_0000115 "The type of material the entity is"@en ;
+                        rdfs:label "Material Entity Type"@en .
 
 
 ###  https://github.com/tibonto/mato#ResponsibleForEquipment
@@ -520,6 +532,11 @@ mato:ResponsibleForEquipment rdf:type owl:Class ;
                              rdfs:subClassOf prov:Agent ;
                              iao:IAO_0000115 "A Person or Organization who is reponsible for the Equipment."@en ;
                              rdfs:label "Agent responsible for equipment"@en .
+
+
+###  https://github.com/tibonto/mato#Software
+mato:Software rdf:type owl:Class ;
+              rdfs:subClassOf mato:MaterialEntityType .
 
 
 ###  https://github.com/tibonto/mato#Tool
