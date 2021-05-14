@@ -536,7 +536,8 @@ mato:ResponsibleForEquipment rdf:type owl:Class ;
 
 ###  https://github.com/tibonto/mato#Software
 mato:Software rdf:type owl:Class ;
-              rdfs:subClassOf mato:MaterialEntityType .
+              rdfs:subClassOf mato:MaterialEntityType ;
+              rdfs:label "Software"@en .
 
 
 ###  https://github.com/tibonto/mato#Tool
