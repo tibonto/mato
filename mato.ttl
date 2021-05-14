@@ -294,8 +294,8 @@ mato:isResponsibleFor rdf:type owl:ObjectProperty ;
 mato:underResponsibilityOf rdf:type owl:ObjectProperty ;
                            rdfs:domain mato:Equipment ;
                            rdfs:range mato:ResponsibleForEquipment ;
-                           iao:IAO_0000115 ""@en ;
-                           rdfs:label "Under the responsibility of"@en .
+                           rdfs:label "Under the responsibility of"@en ;
+                           skos:definition "The person or organization that holds responsibility for the Equipment"@en .
 
 
 ###  https://github.com/tibonto/mato#usedByMachine
@@ -303,21 +303,31 @@ mato:usedByMachine rdf:type owl:ObjectProperty ;
                    owl:inverseOf mato:usesTool ;
                    rdfs:domain mato:Tool ;
                    rdfs:range mato:Machine ;
-                   iao:IAO_0000115 "This property allows the linkage of a tool with a machine, in a way that the tool is used by the machine."@en ;
-                   rdfs:label "used by machine"@en .
+                   rdfs:label "used by machine"@en ;
+                   skos:definition "This property allows the linkage of a tool with a machine, in a way that the tool is used by the machine."@en .
 
 
 ###  https://github.com/tibonto/mato#usesTool
 mato:usesTool rdf:type owl:ObjectProperty ;
               rdfs:domain mato:Machine ;
               rdfs:range mato:Tool ;
-              iao:IAO_0000115 "This property allows the linkage of a machine with a tool, in a way that the machine uses the tool."@en ;
-              rdfs:label "uses tool"@en .
+              rdfs:label "uses tool"@en ;
+              skos:definition "This property allows the linkage of a machine with a tool, in a way that the machine uses the tool."@en .
 
 
 #################################################################
 #    Data properties
 #################################################################
+
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdf:type owl:DatatypeProperty ;
+                                 rdfs:domain owl:Thing ;
+                                 rdfs:range rdfs:Literal ;
+                                 rdfs:comment "A name for some thing." ;
+                                 rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+                                 rdfs:label "name" ;
+                                 ns:term_status "testing" .
+
 
 ###  https://github.com/tibonto/mato#atLocation
 mato:atLocation rdf:type owl:DatatypeProperty ;
@@ -477,20 +487,40 @@ ssn:System rdf:type owl:Class ;
 
 ###  https://github.com/tibonto/mato#ApplicationContext
 mato:ApplicationContext rdf:type owl:Class ;
-                        iao:IAO_0000115 "The context in which an Equipment is used"@en ;
-                        rdfs:label "Application Context"@en .
+                        rdfs:label "Application Context"@en ;
+                        skos:definition "The context in which an Equipment is used"@en .
 
 
 ###  https://github.com/tibonto/mato#Equipment
 mato:Equipment rdf:type owl:Class ;
                rdfs:subClassOf ssn:System ;
-               rdfs:label "Equipment"@en .
+               rdfs:label "Betriebsmittel"@de ,
+                          "Equipment"@en ;
+               skos:definition "Generic entity referring to the entire types of the initial devices, machines, installations, or their combination and tools required to achieve the intended purpose"@en ,
+                               "Generische Entität, die sich auf unterschiedliche oder Kombination von unterschiedlichen Geräten, Maschinen, Anlagen bezieht und die erforderlich ist, um den beabsichtigten Zweck zu erreichen. "@de .
+
+
+###  https://github.com/tibonto/mato#Hardware
+mato:Hardware rdf:type owl:Class ;
+              rdfs:subClassOf mato:MaterialEntityType ;
+              rdfs:label "Hardware"@en .
 
 
 ###  https://github.com/tibonto/mato#Machine
 mato:Machine rdf:type owl:Class ;
              rdfs:subClassOf mato:Equipment ;
-             rdfs:label "Machine"@en .
+             iao:IAO_0000119 "Richtlinie 2006/42/EG (Maschinenrichtlinie) (DIRECTIVE 2006/42/EC) on machinery, and amending Directive 95/16/EC (recast)."@en ;
+             rdfs:label "Machine"@en ,
+                        "Maschine"@de ;
+             skos:definition """Machinery is an assembly, fitted with or intended to be fitted with a drive system other than directly applied human or animal effort, consisting of linked parts or components, at least one of which moves, and which are joined together for a specific application. A machine can consist (completed or/and partly completed) machinery which, in order to achieve the
+same end, are arranged and controlled so that they function as an integral whole."""@en ,
+                             "Maschine is eine mit einem anderen Antriebssystem als der unmittelbar eingesetzten menschlichen oder tierischen Kraft ausgestattete oder dafür vorgesehene Gesamtheit miteinander verbundener Teile oder Vorrichtungen, von denen mindestens eines bzw. eine beweglich ist und die für eine bestimmte Anwendung zusammengefügt sind. Eine Maschine kann aus mehreren (vollständigen und/oder unvorllständigen) Maschinen bestehen, die so angeordnet sind und zusammenwirken, dass diese Maschine als eine Gesamtheit funktionien kann."@de .
+
+
+###  https://github.com/tibonto/mato#MaterialEntityType
+mato:MaterialEntityType rdf:type owl:Class ;
+                        rdfs:label "Material Entity Type"@en ;
+                        skos:definition "The type of material the entity is"@en .
 
 
 ###  https://github.com/tibonto/mato#ResponsibleForEquipment
@@ -508,14 +538,24 @@ mato:ResponsibleForEquipment rdf:type owl:Class ;
                                                    rdf:type owl:Class
                                                  ] ;
                              rdfs:subClassOf prov:Agent ;
-                             iao:IAO_0000115 "A Person or Organization who is reponsible for the Equipment."@en ;
-                             rdfs:label "Agent responsible for equipment"@en .
+                             rdfs:label "Agent responsible for equipment"@en ;
+                             skos:definition "A Person or Organization who is reponsible for the Equipment."@en .
+
+
+###  https://github.com/tibonto/mato#Software
+mato:Software rdf:type owl:Class ;
+              rdfs:subClassOf mato:MaterialEntityType ;
+              rdfs:label "Software"@en .
 
 
 ###  https://github.com/tibonto/mato#Tool
 mato:Tool rdf:type owl:Class ;
           rdfs:subClassOf mato:Equipment ;
-          rdfs:label "Tool"@en .
+          iao:IAO_0000119 "Richtlinie 2006/42/EG (Maschinenrichtlinie) (DIRECTIVE 2006/42/EC) on machinery, and amending Directive 95/16/EC (recast)."@en ;
+          rdfs:label "Tool"@en ,
+                     "Werkzeug"@de ;
+          skos:definition "Tool is the opposite of an interchangeable equipment and represents a simple tool of a machine which directly acts on the material to be worked. It neither changes or expands the function of the machine."@en ,
+                          "Werkzeug is der Gegensatz zu einer auswechselbaren Ausrüstung und repräsentiert ein einfaches Werkzeuge einer Maschine, der direkt auf das zu bearbeitende Material einwirkt."@de .
 
 
 #################################################################
