@@ -19,7 +19,7 @@
 <https://github.com/tibonto/mato> rdf:type owl:Ontology ;
                                    dc:contributor "André Castro" ;
                                    dc:creator "Tatyana Sheveleva" ;
-                                   dc:description "Machine and Tool Ontology is..."@en ;
+                                   dc:description "The Machine and Tool Ontology (MATO) represents a semantic model for the general description of equipment used in the development of production technologies. The equipment is described by properties like manufacturer, model, physical location, and a specific application area, as well as by using of freely formulated expressions in natural language. MATO enables the expression of a possible combinations of different equipment types required to fulfil a specific action. Furthermore, MATO semantically relates equipment with agents such as persons and organizations responsible for them."@en ;
                                    dc:title "Machine and Tool Ontology"@en ;
                                    dcterms:license <https://www.gnu.org/licenses/gpl-3.0> ;
                                    owl:versionInfo "0.0.1" .
